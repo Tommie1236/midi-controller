@@ -9,13 +9,13 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      with:
-        submodules: recursive  # Ensure submodules are checked out
+      #with:
+        #submodules: recursive  # Ensure submodules are checked out
 
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y cmake make gcc g++ picotool
+        sudo apt-get install -y cmake make gcc g++
 
     - name: Run the script
       run: sh build.sh
