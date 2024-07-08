@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -e
+
 git submodule update --init
 cd Code/lib/pico-sdk/
 git submodule update 
