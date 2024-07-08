@@ -1,3 +1,7 @@
+### huge thanks to the amazing [rp2040 skeleton project](https://github.com/daveythacher/RP2040_SKELETON). it helped immensly setting up this project. i probably couldn't have done it without
+
+# Temp Readme
+
 # RP2040_SKELETON
 This is a skeleton project which is intended to help people with CMake. Follow the steps outlined in [Project Setup](Project_Setup.md) to get started with RP2040 development using PICO-SDK. This tutorial is in no way complete, but should serve as a lanuching point for beginners. Google and forums should be able to help with more advanced usages. The discussions feature of this repository is available also.
 
