@@ -28,11 +28,11 @@ class Button {
         Button(int index);
 
 
-        LedState getState();
-        LedState setState(LedState state);
+        LedState get_state();
+        LedState set_state(LedState state);
 
-        Color setColor(Color collor);
-        Color getColor();
+        Color set_color(Color color);
+        Color get_color();
         
 };
 

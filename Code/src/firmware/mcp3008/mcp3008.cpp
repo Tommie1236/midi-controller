@@ -9,10 +9,11 @@
 #include "hardware/spi.h"
 
 #include "../mcp23s17/mcp23s17.h"
+#include "../mcp23s17/pin.h"
 
-mcp3008::mcp3008(int index, Pin cs_pin) : index(index), cs_pin(cs_pin) {};
+mcp3008::mcp3008(Pin& cs_pin) : cs_pin(cs_pin) {};
 
-uint8_t mcp3008::read_adc(int channel) {
+uint8_t mcp3008::read_adc_single(int channel) {
     uint8_t tx_buffer[3];
     uint8_t rx_buffer[3];
 

@@ -7,12 +7,11 @@
 #include "fader/fader.h"
 #include "button/button.h"
 
-/* ------------------------------------------------------- */
+
+//#define LS30 // uncomment when using the ls30 debounc ic for the encoders
 
 
 
-
-/* ------------------------------------------------------- */
 
 
 
@@ -28,9 +27,7 @@ int main () {
     MFader fader1(1);
 
     gpio_put(LED_PIN, 1);
-
-    uint8_t rx_buffer[3] = {0x00, 0x22, 0x36};
-    printf("value %u\n", ((rx_buffer[1] << 6) | (rx_buffer[2] >> 2)) & 0xff);
+    printf("online\n");
 
     while (0) {
         int value0 = fader0.getPosition();

@@ -8,20 +8,20 @@ Button::Button(int index) : index(index) {
     this->state = LedState::OFF;
 }
 
-LedState Button::getState() {
+LedState Button::get_state() {
     return this->state;
 };
 
-LedState Button::setState(LedState state) {
+LedState Button::set_state(LedState state) {
     this->state = state;
     return this->state;
 };
 
-Color Button::setColor(Color color) {
+Color Button::set_color(Color color) {
     this->color = color;
     return this->color;
 };
 
-Color Button::getColor() {
+Color Button::get_color() {
     return this->color;
 };
