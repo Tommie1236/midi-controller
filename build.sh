@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -e    # Exit on error
 
 git submodule update --init
 cd Code/lib/pico-sdk/
@@ -15,7 +15,7 @@ make -j $(($(nproc) * 2))
 
 while getopts 'l' flag; do
   case "${flag}" in (l) 
-      echo "Loading firmware to Pico"
+      echo "Loading firmware <$(pwd)/src/firmware/firmware.bin> to Pico"
       sudo picotool load $(pwd)/src/firmware/firmware.bin
       ;;
   esac
