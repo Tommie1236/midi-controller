@@ -24,10 +24,16 @@ void spi_init_mcp3008() {
     gpio_put(PIN_CS, 1);
 }
 
+void printBinary(uint8_t value, int bits = 8) {
+    for (int i = bits-1; i >= 0; --i) { 
+        printf("%d", (value >> i) & 1);
+    }
+}
+
 // Function to read a value from the MCP3008
-uint16_t read_adc(uint8_t channel) {
+uint8_t read_adc(uint8_t channel) {
     uint8_t buf[3];
-    uint16_t result;
+    uint8_t result;
 
     buf[0] = 0x01;  // Start bit
     buf[1] = (0x08 | channel) << 4;  // Channel configuration
@@ -38,6 +44,7 @@ uint16_t read_adc(uint8_t channel) {
     gpio_put(PIN_CS, 1);
 
     result = ((((buf[1] & 0b00000011) << 6) | (buf[2] >> 2)));  // Combine the result bytes
+    
     return result;
 };
  
@@ -60,8 +67,8 @@ MFader::MFader(int index) : index(index), touched(0), position(0) {
 
 // TODO: change to proper adc read later
 int MFader::updatePosition() {
-    uint16_t value = read_adc(this->index);
-    return value * 0.5;
+    uint8_t value = read_adc(this->index);
+    return value;
 };
 
 // TODO:

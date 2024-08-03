@@ -12,7 +12,7 @@ class MFader {
         void moveDown();
 
     public:
-        int position;
+        unsigned int position;
 
         MFader(int index);
 
