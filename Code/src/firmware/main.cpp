@@ -42,11 +42,13 @@ int main () {
     printf("online\n");
 
     while (1) {
-        int value1 = fader_1.getPosition();
-        int value2 = fader_2.getPosition();
-        printf("%d %d \n", value1, value2);
-        sleep_ms(100);
-        fader_1.moveToPosition(value2);
+        fader_1.getPosition();
+        fader_2.getPosition();
+        // int value1 = fader_1.getPosition();
+        // int value2 = fader_2.getPosition();
+        // printf("%d %d \n", value1, value2);
+        // sleep_ms(100);
+        // fader_1.moveToPosition(value2);
     };
     return 0;
 

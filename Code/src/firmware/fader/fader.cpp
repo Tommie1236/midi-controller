@@ -4,6 +4,8 @@
 #include "hardware/gpio.h"
 #include "hardware/spi.h"
 
+#include <stdio.h>
+
 // Define SPI pins
 #define SPI_PORT spi0
 #define PIN_SCK  18
@@ -22,6 +24,12 @@ void spi_init_mcp3008() {
     gpio_put(PIN_CS, 1);
 }
 
+void printBinary(uint8_t value, int bits = 8) {
+    for (int i = bits-1; i >= 0; --i) { 
+        printf("%d", (value >> i) & 1);
+    }
+}
+
 // Function to read a value from the MCP3008
 uint16_t read_adc(uint8_t channel) {
     uint8_t buf[3];
@@ -34,8 +42,13 @@ uint16_t read_adc(uint8_t channel) {
     gpio_put(PIN_CS, 0);
     spi_write_read_blocking(SPI_PORT, buf, buf, 3);
     gpio_put(PIN_CS, 1);
-
-    result = ((buf[1] & 0x03) << 8) | buf[2];  // Combine the result bytes
+    printBinary(buf[1]);
+    printf("  ");
+    printBinary(buf[2]);
+    printf("  ");
+    result = ((((buf[1] & 0b00000011) << 6) | (buf[2] >> 2)));  // Combine the result bytes
+    printBinary(result, 16);
+    printf("\n");
     return result;
 };
  
