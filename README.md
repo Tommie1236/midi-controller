@@ -56,12 +56,13 @@ I set a couple of requirements that i definetly wanted in my controler. As follo
 
 #### And here are some features i want to support but arent required for the mvp: 
 
-- **USB Hub**. Probably USB-A sockets.
+- **USB Hub**. Probably USB-A sockets.  
   To connect more devices downstream from the controller
 
-- **RTP MIDI**. Wifi/Ethernet
-  Using a ESP32 or similar to handle the network stack and enable the controller to communicate either wireless or via a ethernet cable.
+- **RTP MIDI**. Wifi/Ethernet  
+  Using a ESP32 or similar to handle the network stack and enable the controller to communicate either wireless or via a ethernet cable.  
   Adding to the already available midi connection options of USB-MIDI and hardware-MIDI
 
 - **Web Server**. 
-  Maybe a configuration webserver as the display will be quite small. would also run on the ESP32 that handels the network. it connects to the main rp2040 using uart.
+  Maybe a configuration webserver as the display will be quite small. would also run on the ESP32 that handels the network.  
+  it connects to the main rp2040 using uart.
