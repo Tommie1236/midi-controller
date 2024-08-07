@@ -1,3 +1,5 @@
+#include "mcp3008.h"
+
 
 #ifndef MFADER_H
 #define MFADER_H
@@ -7,18 +9,18 @@ class MFader {
         const int index;
         bool touched = 0;
 
-        int updatePosition();
+        uint8_t updatePosition();
         void moveUp();
         void moveDown();
 
     public:
-        unsigned int position;
+        uint8_t position;
 
         MFader(int index);
 
         void moveStop();
-        int getPosition();
-        int moveToPosition(int newPosition);
+        uint8_t getPosition();
+        uint8_t moveToPosition(uint8_t newPosition);
         bool getTouched();
         bool setTouched(bool value);
 };
@@ -28,5 +30,4 @@ class MFader {
 
 
 
-void spi_init_mcp3008();
 #endif // MFADER_H

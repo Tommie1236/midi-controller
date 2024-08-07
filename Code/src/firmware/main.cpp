@@ -45,8 +45,7 @@ int main () {
         int value1 = fader_1.getPosition();
         int value2 = fader_2.getPosition();
         printf("%d %d \n", value1, value2);
-        // sleep_ms(100);
-        // fader_1.moveToPosition(value2);
+        fader_1.moveToPosition(value2);
     };
     return 0;
 

@@ -1,28 +1,19 @@
 #include "fader.h"
+#include "mcp3008.h"
 
 #include "pico/stdlib.h"
-#include "hardware/gpio.h"
-#include "hardware/spi.h"
+#include "hardware/gpio.h" //only for testing. until proper adc
+#include "hardware/spi.h" //only for testing. until proper adc
 
 #include <stdio.h>
+#include <stdlib.h>
 
-// Define SPI pins
 #define SPI_PORT spi0
 #define PIN_SCK  18
 #define PIN_MOSI 19
 #define PIN_MISO 16
 #define PIN_CS   17
 
-// Function to initialize the SPI
-void spi_init_mcp3008() {
-    spi_init(SPI_PORT, 1000 * 1000);  // 5 MHz
-    gpio_set_function(PIN_SCK, GPIO_FUNC_SPI);
-    gpio_set_function(PIN_MOSI, GPIO_FUNC_SPI);
-    gpio_set_function(PIN_MISO, GPIO_FUNC_SPI);
-    gpio_init(PIN_CS);  
-    gpio_set_dir(PIN_CS, GPIO_OUT);
-    gpio_put(PIN_CS, 1);
-}
 
 void printBinary(uint8_t value, int bits = 8) {
     for (int i = bits-1; i >= 0; --i) { 
@@ -37,13 +28,13 @@ uint8_t read_adc(uint8_t channel) {
 
     buf[0] = 0x01;  // Start bit
     buf[1] = (0x08 | channel) << 4;  // Channel configuration
-    buf[2] = 0x00;  // Don't care byte
+    buf[2] = 0x00;  // Don't care byte. sends empty fills up with result
 
     gpio_put(PIN_CS, 0);
     spi_write_read_blocking(SPI_PORT, buf, buf, 3);
     gpio_put(PIN_CS, 1);
 
-    result = ((((buf[1] & 0b00000011) << 6) | (buf[2] >> 2)));  // Combine the result bytes
+    result = (buf[1] & 0b00000011 << 6) | (buf[2] & 0b11111100 >> 2);  // Combine the result bytes. last 2 bits from byte 2, and first 6 bits from byte 3 combined
     
     return result;
 };
@@ -51,6 +42,7 @@ uint8_t read_adc(uint8_t channel) {
 
 
 MFader::MFader(int index) : index(index), touched(0), position(0) {
+
     //temp testing code
     if (this->index == 0) {
         gpio_init(10);
@@ -65,16 +57,18 @@ MFader::MFader(int index) : index(index), touched(0), position(0) {
     }
 }
 
+
 // TODO: change to proper adc read later
-int MFader::updatePosition() {
-    uint8_t value = read_adc(this->index);
-    return value;
+uint8_t MFader::updatePosition() {
+    this->position = read_adc(this->index);
+    return this->position;
 };
 
-// TODO:
+// TODO: implement proper pin control
 void MFader::moveUp() {
     if (!this->touched) {
         // pin A high, pin B low
+
         // temp testing code below
         if (this->index == 0) {
             gpio_put(10, 1);
@@ -90,6 +84,7 @@ void MFader::moveUp() {
 void MFader::moveDown() {
     if (!this->touched) {
         // pin A low, pin B high
+
         // temp testing code below
         if (this->index == 0) {
             gpio_put(10, 0);
@@ -103,7 +98,8 @@ void MFader::moveDown() {
 
 // TODO:
 void MFader::moveStop() {
-    // pin A low, pin B low
+    // pin A low, pin B low or pin A high, pin B high
+
     // temp test code below
     if (this->index == 0) {
         gpio_put(10, 0);
@@ -114,13 +110,19 @@ void MFader::moveStop() {
     }
 };
 
-int MFader::getPosition() {
-    this->position = this->updatePosition();
+uint8_t MFader::getPosition() {
+    this->updatePosition();
     return this->position;
 };
 
-int MFader::moveToPosition(int newPosition) {
+uint8_t MFader::moveToPosition(uint8_t newPosition) {
+    
     while (this->getPosition() != newPosition) {
+        
+        if (abs(this->getPosition() - newPosition) < 5) {
+            this->moveStop();
+            break;
+        };
         while (this->getPosition() < newPosition) {
             this->moveUp();
         };
@@ -131,10 +133,12 @@ int MFader::moveToPosition(int newPosition) {
     };
 
     this->moveStop();
+    this->updatePosition();
 
     return this->position;
 };
     
+// implement touch detection    
 bool MFader::getTouched() {
     return this->touched;
 };

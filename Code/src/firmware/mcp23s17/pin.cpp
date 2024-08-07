@@ -4,7 +4,8 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
-
+// for rp2040 index is gpio number
+// for mcp23s17 index is pin number
 Pin::Pin(int index, Parent_type parent_type) : index(index), parent_type(parent_type) {};
 
 bool Pin::set(bool value) {

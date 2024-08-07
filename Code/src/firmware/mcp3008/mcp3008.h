@@ -17,4 +17,8 @@ class mcp3008 {
         
 };
 
+
+
+void spi_init_mcp3008();
+
 #endif // MCP3008_H
