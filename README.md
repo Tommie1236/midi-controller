@@ -51,7 +51,17 @@ I set a couple of requirements that i definetly wanted in my controler. As follo
   A xlr connector that support a lot of desk lights. preferably xlr-4 so it isn't confused with audio or dmx signals. Sadly there isn't a standard for desk ligths as far as i can find.
 
 - **Powercon Socket**. Blue one. maybe also power out.  
-  Of cource. It needs some power to run. prefereably powercon (true1) but a C14 socket would also work.  
+  Of cource. It needs some power to run. prefereably powercon (true1??) but a C14 socket would also work.  
   with the motor faders and a lot of leds the usb supplied power wont be enough.
 
 #### And here are some features i want to support but arent required for the mvp: 
+
+- **USB Hub**. Probably USB-A sockets.
+  To connect more devices downstream from the controller
+
+- **RTP MIDI**. Wifi/Ethernet
+  Using a ESP32 or similar to handle the network stack and enable the controller to communicate either wireless or via a ethernet cable.
+  Adding to the already available midi connection options of USB-MIDI and hardware-MIDI
+
+- **Web Server**. 
+  Maybe a configuration webserver as the display will be quite small. would also run on the ESP32 that handels the network. it connects to the main rp2040 using uart.
