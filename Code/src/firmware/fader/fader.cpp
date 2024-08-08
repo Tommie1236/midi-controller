@@ -1,5 +1,6 @@
 #include "fader.h"
-#include "mcp3008.h"
+
+#include <pin.h>
 
 #include "pico/stdlib.h"
 #include "hardware/gpio.h" //only for testing. until proper adc
@@ -21,7 +22,7 @@ void printBinary(uint8_t value, int bits = 8) {
     }
 }
 
-// Function to read a value from the MCP3008
+// TODO: remove from this file and use the mcp3008 class
 uint8_t read_adc(uint8_t channel) {
     uint8_t buf[3];
     uint8_t result;
@@ -41,21 +42,19 @@ uint8_t read_adc(uint8_t channel) {
  
 
 
-MFader::MFader(int index) : index(index), touched(0), position(0) {
-
-    //temp testing code
-    if (this->index == 0) {
-        gpio_init(10);
-        gpio_init(11);
-        gpio_set_dir(10, GPIO_OUT);
-        gpio_set_dir(11, GPIO_OUT);
-    } else if (this->index == 1) {
-        gpio_init(12);
-        gpio_init(13);
-        gpio_set_dir(12, GPIO_OUT);
-        gpio_set_dir(13, GPIO_OUT);
-    }
+MFader::MFader(uint index,
+               Pin adc_pin,
+               Pin motor_a_pin,
+               Pin motor_b_pin)
+               : index(index),
+               touched(0),
+               adc_pin(adc_pin),
+               motor_a_pin(motor_a_pin),
+               motor_b_pin(motor_b_pin) {
+    
 }
+
+
 
 
 // TODO: change to proper adc read later

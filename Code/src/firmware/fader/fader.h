@@ -1,5 +1,6 @@
-#include "mcp3008.h"
+#include <pin.h>
 
+#include "pico/stdlib.h"
 
 #ifndef MFADER_H
 #define MFADER_H
@@ -13,10 +14,14 @@ class MFader {
         void moveUp();
         void moveDown();
 
+        Pin adc_pin;
+        Pin motor_a_pin;
+        Pin motor_b_pin;
+
     public:
         uint8_t position;
 
-        MFader(int index);
+        MFader(uint index, Pin adc_pin, Pin motor_a_pin, Pin motor_b_pin);
 
         void moveStop();
         uint8_t getPosition();

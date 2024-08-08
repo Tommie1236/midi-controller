@@ -3,7 +3,7 @@
 #define MCP23S17_H
 
 #include <array>
-#include "pin.h"
+#include <pin.h>
 
 
 

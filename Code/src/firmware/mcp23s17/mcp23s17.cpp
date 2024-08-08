@@ -1,17 +1,10 @@
 #include "mcp23s17.h"
-#include "pin.h"
+#include <pin.h>
 
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 
 
-
-// class Pin
-
-
-
-// --------------------------------------------------
-// class mcp23s17
 Mcp23s17::Mcp23s17(Pin& cs_pin) : cs_pin(cs_pin), pins({
     Pin(0, Parent_type::MCP23S17),           // can't find a other working solution 
     Pin(1, Parent_type::MCP23S17),
