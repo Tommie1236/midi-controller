@@ -1,5 +1,9 @@
 #include "pin.h"
-#include "mcp23s17.h"
+
+#include <mcp23s17.h>
+#include <mcp3008.h>
+//#include <pca9635.h>
+//#include <mtch105.h>
 
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
@@ -14,8 +18,24 @@ bool Pin::set(bool value) {
         case Parent_type::MCP23S17:
             
             break;
+        
         case Parent_type::RP2040:
             gpio_put(this->index, value);
+            break;
+        
+        case Parent_type::MCP3008:
+            
+            break;
+        
+        case Parent_type::PCA9635:
+            
+            break;
+        
+        case Parent_type::MTCH105:
+        // nothing. cant write to mtch105 pins
+            break;
+
+        default:
             break;
     };
     this->get();
@@ -24,12 +44,28 @@ bool Pin::set(bool value) {
 
 bool Pin::get() {
     switch (this->parent_type) {
-    case Parent_type::MCP23S17:
-        break;
+        case Parent_type::MCP23S17:
+        
+            break;
 
-    case Parent_type::RP2040:
-        this->value = gpio_get(this->index);
-        break;
+        case Parent_type::RP2040:
+            this->value = gpio_get(this->index);
+            break;
+
+        case Parent_type::MCP3008:
+            
+            break;
+        
+        case Parent_type::PCA9635:
+        
+            break;
+
+        case Parent_type::MTCH105:
+
+            break;
+        
+        default:
+            break;
     };
     return this->value;
 };

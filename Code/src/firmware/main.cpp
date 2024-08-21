@@ -4,20 +4,14 @@
 #include "pico/stdlib.h"
 //#include "TFT_eSPI/TFT_eSPI.h"
 
-#include "fader/fader.h"
-#include "button/button.h"
+#include <fader.h>
+#include <button.h>
+// #include <encoder.h> (not yet implemented)
 
-#include "hardware/spi.h"
 
 
 //#define LS30 // uncomment when using the ls30 debounc ic for the encoders (not yet inplemented)
 
-
-#define SPI_PORT spi0
-#define PIN_SCK  18
-#define PIN_MOSI 19
-#define PIN_MISO 16
-#define PIN_CS   17
 
 
 #define FADER_1_A 10
@@ -33,7 +27,7 @@ int main () {
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
     spi_init_mcp3008();
-    stdio_init_all();
+    stdio_init_all(); // usb/uart stdio for printf/debug
 
     MFader fader_1(0);
     MFader fader_2(1);

@@ -6,7 +6,10 @@ class Mcp23s17;
 
 enum class Parent_type {
     MCP23S17,
-    RP2040
+    RP2040,
+    PCA9635,
+    MCP3008,
+    MTCH105
 };
 
 enum class Pin_mode {

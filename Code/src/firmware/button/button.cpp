@@ -1,4 +1,5 @@
 #include "button.h"
+#include <pin.h>
 
 #include "pico/stdlib.h"
 

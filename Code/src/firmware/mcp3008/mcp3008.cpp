@@ -5,11 +5,9 @@
 #include "mcp3008.h"
 
 #include "pico/stdlib.h"
-#include "hardware/gpio.h"
 #include "hardware/spi.h"
 
-#include "../mcp23s17/mcp23s17.h"
-#include "../mcp23s17/pin.h"
+#include <pin.h>
 
 // Define SPI pins
 #define SPI_PORT spi0
@@ -19,8 +17,8 @@
 #define PIN_CS   17
 
 
-
-void spi_init_mcp3008() {
+//TODO: move into mcp3008 class
+void spi_init_mcp3008(spi_inst_t *spi_port, Pin cs_pin) {
     spi_init(SPI_PORT, 1000 * 1000);  // 5 MHz
     gpio_set_function(PIN_SCK, GPIO_FUNC_SPI);
     gpio_set_function(PIN_MOSI, GPIO_FUNC_SPI);
@@ -30,7 +28,7 @@ void spi_init_mcp3008() {
     gpio_put(PIN_CS, 1);
 }
 
-mcp3008::mcp3008(Pin& cs_pin) : cs_pin(cs_pin) {};
+mcp3008::mcp3008(spi_inst_t *spi_port, Pin& cs_pin) : spi_port(spi_port) ,cs_pin(cs_pin) {};
 
 uint8_t mcp3008::read_adc_single(int channel) {
     uint8_t buf[3];

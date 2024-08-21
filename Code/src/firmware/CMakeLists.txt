@@ -10,6 +10,7 @@ add_subdirectory(button)
 add_subdirectory(fader)
 add_subdirectory(mcp3008)
 add_subdirectory(mcp23s17)
+add_subdirectory(pin)
 
 
 # link in libraries (almost every hardware/<blah>.h or pico/<blah>.h is hardware_blah or pico_blah)
