@@ -40,6 +40,7 @@ class Pin {
         bool set(bool value);
         bool get();
         void set_parent(Mcp23s17& parent);
+        
         bool set_default_value(bool value);
 
         Interrupt_mode get_interrupt_mode();

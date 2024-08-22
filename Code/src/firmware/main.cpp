@@ -26,21 +26,12 @@ int main () {
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
-    spi_init_mcp3008();
     stdio_init_all(); // usb/uart stdio for printf/debug
 
-    MFader fader_1(0);
-    MFader fader_2(1);
 
     gpio_put(LED_PIN, 1);
     printf("online\n");
 
-    while (1) {
-        int value1 = fader_1.getPosition();
-        int value2 = fader_2.getPosition();
-        printf("%d %d \n", value1, value2);
-        fader_1.moveToPosition(value2);
-    };
     return 0;
 
 };
