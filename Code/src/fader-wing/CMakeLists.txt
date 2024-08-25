@@ -1,7 +1,7 @@
-# Code/src/firmware/CMakeLists.txt
+# Code/src/fader-wing/CMakeLists.txt
 
 # add source files
-add_executable(firmware
+add_executable(fader-wing
   main.cpp
 )
 
@@ -10,7 +10,7 @@ add_executable(firmware
 
 
 # link in libraries (almost every hardware/<blah>.h or pico/<blah>.h is hardware_blah or pico_blah)
-target_link_libraries(firmware PRIVATE
+target_link_libraries(fader-wing PRIVATE
     pico_stdlib
     hardware_spi
     hardware_gpio
@@ -22,8 +22,8 @@ target_link_libraries(firmware PRIVATE
 )
 
 # enable usb/uart stdout
-pico_enable_stdio_usb(firmware 0)
-pico_enable_stdio_uart(firmware 1)
+pico_enable_stdio_usb(fader-wing 0)
+pico_enable_stdio_uart(fader-wing 1)
 
 
 
@@ -31,7 +31,7 @@ pico_enable_stdio_uart(firmware 1)
 
 
 # compiler flags
-target_compile_options(firmware PRIVATE 
+target_compile_options(fader-wing PRIVATE 
     $<$<COMPILE_LANGUAGE:CXX>:-fno-rtti>
     -fno-exceptions 
     -fno-check-new 
@@ -46,21 +46,21 @@ target_compile_options(firmware PRIVATE
 )
 
 # preprocessor macros
-target_compile_definitions(firmware PRIVATE 
+target_compile_definitions(fader-wing PRIVATE 
     PICO_HEAP_SIZE=2048
     PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64
 )
 
 # select linker script
-#pico_set_binary_type(firmware copy_to_ram)
+#pico_set_binary_type(fader-wing copy_to_ram)
 
 
 # create map/bin/hex file etc.
-pico_add_extra_outputs(firmware)
-#pico_add_dis_output2(firmware)
+pico_add_extra_outputs(fader-wing)
+#pico_add_dis_output2(fader-wing)
   
 
 # linker options
-target_link_options(firmware
+target_link_options(fader-wing
     PRIVATE "LINKER:--print-memory-usage"
 )
