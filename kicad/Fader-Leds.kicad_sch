@@ -19226,6 +19226,73 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 356.87 -92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "053c1176-f430-4760-844d-b6e77eaae810")
+		(property "Reference" "D139"
+			(at 360.68 -93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 353.06 -93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 356.87 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 356.87 -92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e82c295-4d4b-4885-b833-93897ea9db49")
+		)
+		(pin "1"
+			(uuid "4479bd59-418e-4398-9cf3-6cf73ee01480")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 148.59 -26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21303,6 +21370,73 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 394.97 -87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b6bbf1f-df8c-4ec6-9a89-cb3e885dd16d")
+		(property "Reference" "D156"
+			(at 398.78 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 391.16 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 394.97 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 394.97 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "180199cc-b086-4cc4-a8c9-aedaae35af99")
+		)
+		(pin "1"
+			(uuid "44b66e78-c776-4339-9649-f02c159832bd")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 318.77 -31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22316,6 +22450,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 318.77 -3.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aca17d1-4a56-4f37-957a-d9877815723b")
+		(property "Reference" "D176"
+			(at 322.58 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 314.96 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 318.77 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 318.77 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8cbd995-8b8a-40b3-8712-1e28ea98166f")
+		)
+		(pin "1"
+			(uuid "52ae70c2-edd3-4484-95b5-bceefaea0bc9")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 73.66 0)
 		(unit 1)
@@ -22525,6 +22726,73 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
 					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 356.87 -3.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d7fb79a-f848-43a8-890c-4d69f91ac0d6")
+		(property "Reference" "D178"
+			(at 360.68 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 353.06 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 356.87 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 356.87 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe38fd09-af5b-452d-9865-4b4eec3593ab")
+		)
+		(pin "1"
+			(uuid "cdf1cc74-35e7-4674-8cfe-1e96ed053d90")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D178")
 					(unit 1)
 				)
 			)
@@ -25884,6 +26152,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 394.97 -46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f0b3a80-65a1-4d0f-92b0-8f2cc653078e")
+		(property "Reference" "D164"
+			(at 398.78 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 391.16 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 394.97 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 394.97 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0004b35d-7a6b-493a-a342-78f15fa3518d")
+		)
+		(pin "1"
+			(uuid "0657c6af-5b3f-444f-bff2-5f987890500c")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 154.94 -95.25 0)
 		(unit 1)
@@ -26022,6 +26357,73 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
 					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 -57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5033e2b3-455e-4e19-a1a4-d47d810dee1c")
+		(property "Reference" "D82"
+			(at 190.5 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 182.88 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 186.69 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cd1bdfc-3c74-44a4-a0dc-a757fd5d7836")
+		)
+		(pin "1"
+			(uuid "3cee2252-24a9-4b44-9aab-76ee7b4924ad")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -30424,6 +30826,73 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 72.39 -82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81826dda-8b95-449a-b4b9-0fc161e7df65")
+		(property "Reference" "D29"
+			(at 76.2 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 68.58 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 72.39 -82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 -82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 72.39 -82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9da95a5e-40ba-48b3-8747-e19adbd57a21")
+		)
+		(pin "1"
+			(uuid "4a86ea39-5333-4df8-80ff-5dd976056db7")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 72.39 -57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33810,6 +34279,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 246.38 -52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b896b858-6666-44c9-a5d2-951745940735")
+		(property "Reference" "D99"
+			(at 250.19 -53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 242.57 -53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 246.38 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 246.38 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4de0628c-3d6d-4aa2-9fcd-317150ccad62")
+		)
+		(pin "1"
+			(uuid "271e6b42-8e3f-4ca1-9124-fb58efc3c811")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 248.92 90.17 0)
 		(unit 1)
@@ -35031,6 +35567,73 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 34.29 -67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3e6836b-1b2e-42ba-b9df-fcd8d08f88a1")
+		(property "Reference" "D16"
+			(at 38.1 -68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 30.48 -68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 34.29 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 34.29 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ee58774-962e-49c3-945e-f6a6080caedd")
+		)
+		(pin "1"
+			(uuid "2dc873a8-c74d-4efa-86bf-9143f698a44b")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 318.77 -67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35239,6 +35842,73 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
 					(reference "D120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 186.69 -16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c996b9bc-ef0a-4857-b796-c4fe4fbece09")
+		(property "Reference" "D90"
+			(at 190.5 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 182.88 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 186.69 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 186.69 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3627670a-ec5e-4e95-b6a1-bd060bcb2330")
+		)
+		(pin "1"
+			(uuid "51d98a3b-3cb7-4544-8a29-106fabd49c47")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -35750,6 +36420,73 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
 					(reference "D151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 72.39 -46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d36f7c01-70db-4a72-960c-bed23538d421")
+		(property "Reference" "D36"
+			(at 76.2 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 68.58 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 72.39 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 72.39 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f736a68-0212-464d-b874-6af7f919bb97")
+		)
+		(pin "1"
+			(uuid "e710cb4c-002c-481b-b024-1fc2171b441c")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -36394,6 +37131,73 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
 					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 110.49 -57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de01dddc-c324-45d0-9805-6e19f6df4b1c")
+		(property "Reference" "D50"
+			(at 114.3 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 106.68 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 110.49 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 110.49 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "960be161-8310-4135-a26b-91aa22dd942c")
+		)
+		(pin "1"
+			(uuid "1081de9d-8814-4cbf-abb3-701c9f4cebee")
+		)
+		(instances
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "D50")
 					(unit 1)
 				)
 			)
