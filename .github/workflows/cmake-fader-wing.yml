@@ -1,0 +1,21 @@
+name: Build fader-wing 
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      #with:
+        #submodules: recursive  # Ensure submodules are checked out
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake make gcc g++ gcc-arm-none-eabi
+
+    - name: build fader-wing
+      run: sh build-fader-wing.sh
