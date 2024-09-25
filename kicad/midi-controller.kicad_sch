@@ -9813,6 +9813,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -9856,6 +9859,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 153 0 1)
 			)
 			(justify left bottom)
 		)
@@ -9863,7 +9867,7 @@
 	)
 	(text "Ethernet? (rtp midi)"
 		(exclude_from_sim no)
-		(at 64.77 161.29 0)
+		(at 323.85 20.955 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9877,6 +9881,8 @@
 		(effects
 			(font
 				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 				(color 255 0 0 1)
 			)
 			(justify bottom)
@@ -9889,6 +9895,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 153 0 1)
 			)
 			(justify left bottom)
 		)
@@ -9896,7 +9903,7 @@
 	)
 	(text "(10K)\n"
 		(exclude_from_sim no)
-		(at 44.2208 71.8104 0)
+		(at 44.1286 66.8139 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10949,7 +10956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0118baa4-6b85-4258-934b-425f34885d66")
-		(property "Reference" "C1"
+		(property "Reference" "C113"
 			(at 19.05 71.12 0)
 			(effects
 				(font
@@ -11003,7 +11010,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C1")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -11019,8 +11026,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08bc1db3-0b83-4b7b-ac5a-4162b07260c6")
-		(property "Reference" "U8"
-			(at 24.13 34.29 90)
+		(property "Reference" "U103"
+			(at 24.13 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11036,7 @@
 			)
 		)
 		(property "Value" "LM4040D33"
-			(at 24.13 36.83 90)
+			(at 24.13 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +11082,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "U8")
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -11090,7 +11097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0aff17cf-d9d1-48ae-943d-11ef9f48d395")
-		(property "Reference" "C32"
+		(property "Reference" "C116"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -11144,7 +11151,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C32")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -11159,7 +11166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e80cf95-75ad-4ca1-a34f-24752b5325c1")
-		(property "Reference" "C9"
+		(property "Reference" "C102"
 			(at 119.38 22.86 0)
 			(effects
 				(font
@@ -11213,7 +11220,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C9")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -11228,7 +11235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1012274e-6e5c-414b-8373-851bd14cd95a")
-		(property "Reference" "R2"
+		(property "Reference" "R104"
 			(at 53.34 59.69 0)
 			(effects
 				(font
@@ -11280,7 +11287,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R2")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -11295,7 +11302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1af20a6a-2aff-4ebc-a90e-2557dabd0fb9")
-		(property "Reference" "C13"
+		(property "Reference" "C106"
 			(at 139.7 22.86 0)
 			(effects
 				(font
@@ -11349,7 +11356,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C13")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -11365,7 +11372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f8fefce-c0f3-430e-84e8-342d0855aaf9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0122"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -11415,7 +11422,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR015")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -11432,7 +11439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259ed11d-fb6d-40a1-adee-ad6a1c6fb1f7")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0127"
 			(at 19.05 85.09 0)
 			(effects
 				(font
@@ -11482,7 +11489,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR07")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -11498,7 +11505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2628923e-fa6d-467e-a21e-d2f09cbe81a0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0113"
 			(at 21.59 48.26 0)
 			(effects
 				(font
@@ -11548,7 +11555,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR064")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -11563,7 +11570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b98d59f-8554-4c03-9e99-18b2ca561061")
-		(property "Reference" "C12"
+		(property "Reference" "C105"
 			(at 134.62 22.86 0)
 			(effects
 				(font
@@ -11617,7 +11624,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C12")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -11632,7 +11639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d2e77d7-4296-4cdc-b15c-f4f2718c87ab")
-		(property "Reference" "J8"
+		(property "Reference" "J102"
 			(at 132.08 176.53 0)
 			(effects
 				(font
@@ -11701,7 +11708,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "J8")
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -11717,7 +11724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33b3c6f0-c1eb-4aec-afa5-40343d476c95")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0115"
 			(at 77.47 135.89 0)
 			(effects
 				(font
@@ -11767,7 +11774,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR045")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -11783,7 +11790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34811906-8eee-4636-9793-8edac6de1312")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0107"
 			(at 85.09 48.26 0)
 			(effects
 				(font
@@ -11833,7 +11840,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR013")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11849,7 +11856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4120893e-768d-4bf9-82b8-6f658843e1d9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0121"
 			(at 115.57 22.86 0)
 			(effects
 				(font
@@ -11899,7 +11906,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR04")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -11914,8 +11921,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "432cb79c-37d8-4640-8687-ff8568a9919f")
-		(property "Reference" "C3"
-			(at 64.77 96.52 90)
+		(property "Reference" "C111"
+			(at 66.04 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11966,7 +11973,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C3")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -11981,7 +11988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "445fb261-06b0-4d8d-a571-59df7ae3e2d8")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0111"
 			(at 128.27 181.61 0)
 			(effects
 				(font
@@ -12031,7 +12038,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR054")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -12052,7 +12059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ff8fb10-9d61-4a98-8310-8dec7532401f")
-		(property "Reference" "R1"
+		(property "Reference" "R105"
 			(at 50.8 67.31 90)
 			(effects
 				(font
@@ -12104,7 +12111,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R1")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -12120,7 +12127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53dc384a-ac7d-4d5f-aff4-c0a3d80ef5a2")
-		(property "Reference" "U35"
+		(property "Reference" "U105"
 			(at 327.3141 41.91 0)
 			(effects
 				(font
@@ -12285,7 +12292,7 @@
 		(instances
 			(project ""
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "U35")
+					(reference "U105")
 					(unit 1)
 				)
 			)
@@ -12300,7 +12307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54ed43d7-2509-4d67-ad23-f327dba440ea")
-		(property "Reference" "C10"
+		(property "Reference" "C103"
 			(at 124.46 22.86 0)
 			(effects
 				(font
@@ -12354,7 +12361,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C10")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -12369,8 +12376,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5504ffe5-56e1-4204-aa21-dbec4c7e768f")
-		(property "Reference" "U6"
-			(at 194.31 45.72 0)
+		(property "Reference" "U104"
+			(at 191.135 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12510,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "U6")
+					(reference "U104")
 					(unit 1)
 				)
 			)
@@ -12518,7 +12525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55560f93-ce36-43ec-b940-e6160608443b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0120"
 			(at 90.17 24.13 0)
 			(effects
 				(font
@@ -12568,7 +12575,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR012")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -12584,7 +12591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5703b939-9436-4a95-b83a-80a228d7bd3c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0102"
 			(at 193.04 45.72 0)
 			(effects
 				(font
@@ -12634,7 +12641,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR048")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -12650,8 +12657,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b53b178-fa23-4d34-8262-36dc33aee050")
-		(property "Reference" "U2"
-			(at 43.18 71.12 0)
+		(property "Reference" "U102"
+			(at 46.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12729,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "U2")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -12738,7 +12745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6093e3fa-5497-4731-b9e2-4560a92e874f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0103"
 			(at 184.15 106.68 0)
 			(effects
 				(font
@@ -12788,7 +12795,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR047")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -12803,7 +12810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6487cf74-a8db-462d-a5e2-da81f7f0b7ab")
-		(property "Reference" "Y1"
+		(property "Reference" "X101"
 			(at 69.85 99.06 90)
 			(effects
 				(font
@@ -12857,7 +12864,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "Y1")
+					(reference "X101")
 					(unit 1)
 				)
 			)
@@ -12872,7 +12879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6588843b-793a-42d4-978d-6237fa229e42")
-		(property "Reference" "C8"
+		(property "Reference" "C101"
 			(at 111.76 22.86 0)
 			(effects
 				(font
@@ -12926,7 +12933,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C8")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -12942,7 +12949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68b3beda-b5d0-4770-9b6d-f66fd21ec7f2")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0109"
 			(at 67.31 50.8 0)
 			(effects
 				(font
@@ -12992,7 +12999,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR0170")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -13007,7 +13014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a73a2c8-e281-4463-97cf-217fae63378b")
-		(property "Reference" "C2"
+		(property "Reference" "C114"
 			(at 25.4 71.12 0)
 			(effects
 				(font
@@ -13061,7 +13068,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C2")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -13077,7 +13084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c7e3bb9-18a0-4e1e-9382-5d68dc27775b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0123"
 			(at 144.78 38.1 0)
 			(effects
 				(font
@@ -13127,7 +13134,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR016")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -13143,7 +13150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77d488f4-8795-4bc1-9c18-89c1a748a54b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0128"
 			(at 19.05 71.12 0)
 			(effects
 				(font
@@ -13193,7 +13200,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR01")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -13209,7 +13216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ad64182-51d9-4ece-8977-7b02497e5306")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0125"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -13259,7 +13266,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR046")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -13275,7 +13282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "891dccbf-ec0c-4700-b196-9cbc10cdf682")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR0105"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -13325,7 +13332,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR0264")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -13341,7 +13348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fe6d3aa-1842-4c98-9f6b-6e3680eca218")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0118"
 			(at 57.15 115.57 0)
 			(effects
 				(font
@@ -13391,7 +13398,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR010")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -13406,7 +13413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92b03d6a-b2f1-4cb9-bf41-afd60ba69721")
-		(property "Reference" "C7"
+		(property "Reference" "C109"
 			(at 74.93 24.13 0)
 			(effects
 				(font
@@ -13460,7 +13467,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C7")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -13475,8 +13482,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "937a453c-2a21-4bfb-b167-01982b6e8fe8")
-		(property "Reference" "U1"
-			(at 123.19 46.99 0)
+		(property "Reference" "U101"
+			(at 120.65 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13694,7 +13701,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "U1")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -13709,7 +13716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a5cb1a5-3141-4b5f-8a39-99917beec374")
-		(property "Reference" "R4"
+		(property "Reference" "R103"
 			(at 77.47 63.5 90)
 			(effects
 				(font
@@ -13761,7 +13768,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R4")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -13776,7 +13783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eae0fb0-3457-433f-865e-fa56549f21e0")
-		(property "Reference" "R32"
+		(property "Reference" "R106"
 			(at 21.59 21.59 0)
 			(effects
 				(font
@@ -13830,7 +13837,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R32")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -13845,7 +13852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f9f6cc1-ce01-4004-b291-2c9b8e6bf05e")
-		(property "Reference" "J2"
+		(property "Reference" "J101"
 			(at 34.29 115.57 0)
 			(effects
 				(font
@@ -13909,7 +13916,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "J2")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -13924,7 +13931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a52d0966-e836-4cfb-b976-df97e9f87c66")
-		(property "Reference" "C6"
+		(property "Reference" "C110"
 			(at 80.01 24.13 0)
 			(effects
 				(font
@@ -13978,7 +13985,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C6")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -13994,7 +14001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a682253a-cd1d-4c9d-825d-6e4c284e36fb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0116"
 			(at 25.4 120.65 0)
 			(effects
 				(font
@@ -14044,7 +14051,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR05")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -14060,7 +14067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a77fbe8f-470f-40dc-8bdc-473040777226")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0124"
 			(at 154.94 74.93 0)
 			(effects
 				(font
@@ -14110,7 +14117,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR051")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -14126,7 +14133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abe0e3b2-d064-47e9-b9b9-d866c4382ce1")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0112"
 			(at 111.76 189.23 0)
 			(effects
 				(font
@@ -14176,7 +14183,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR052")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -14197,7 +14204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad7d28df-32dc-4884-94e2-5b3b0ca45abb")
-		(property "Reference" "C14"
+		(property "Reference" "C107"
 			(at 144.78 22.86 0)
 			(effects
 				(font
@@ -14251,7 +14258,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C14")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -14267,7 +14274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af2aba6b-9faa-42e8-af43-2998b975eebf")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0114"
 			(at 21.59 22.86 0)
 			(effects
 				(font
@@ -14317,7 +14324,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR065")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -14332,7 +14339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b75059ed-837d-4e28-a804-01d981340b71")
-		(property "Reference" "C5"
+		(property "Reference" "C108"
 			(at 85.09 34.29 0)
 			(effects
 				(font
@@ -14386,7 +14393,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C5")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -14401,7 +14408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9c985c1-2f53-4392-89b0-9c0cc279817e")
-		(property "Reference" "C11"
+		(property "Reference" "C104"
 			(at 129.54 22.86 0)
 			(effects
 				(font
@@ -14455,7 +14462,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C11")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -14471,7 +14478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be8781ca-7b4a-4d11-8183-eae8a5e6be34")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0117"
 			(at 25.4 132.08 0)
 			(effects
 				(font
@@ -14521,7 +14528,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR011")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -14537,7 +14544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c35e72ce-6216-4a71-b229-e223ffa0cb16")
-		(property "Reference" "#PWR0263"
+		(property "Reference" "#PWR0106"
 			(at 264.16 127 0)
 			(effects
 				(font
@@ -14587,7 +14594,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR0263")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -14602,7 +14609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c86b9e25-306a-46d7-aeac-7f5b24409028")
-		(property "Reference" "R19"
+		(property "Reference" "R108"
 			(at 165.1 71.12 90)
 			(effects
 				(font
@@ -14654,7 +14661,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R19")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -14670,7 +14677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce0e5c8d-56e2-4187-aa1f-212aea7fb35a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0108"
 			(at 74.93 39.37 0)
 			(effects
 				(font
@@ -14720,7 +14727,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR014")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -14735,7 +14742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4ffee4d-010a-4690-8e8b-b7c8a43772d4")
-		(property "Reference" "C15"
+		(property "Reference" "C115"
 			(at 187.96 30.48 0)
 			(effects
 				(font
@@ -14789,7 +14796,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C15")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -14805,7 +14812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8e7d75d-001f-4711-be44-cb2747eb6cd8")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0119"
 			(at 39.37 102.87 0)
 			(effects
 				(font
@@ -14855,7 +14862,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR02")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -14870,8 +14877,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db7559a3-e8e0-42bf-ba7a-3bed69b9f9fd")
-		(property "Reference" "C4"
-			(at 64.77 106.68 90)
+		(property "Reference" "C112"
+			(at 66.04 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14922,7 +14929,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C4")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -14937,7 +14944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dec9f314-b7ef-44a2-a468-61995790d5d5")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0110"
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -14987,7 +14994,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR03")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -15003,7 +15010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df9d6b6c-03d0-4224-b378-700299bb2680")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0101"
 			(at 184.15 30.48 0)
 			(effects
 				(font
@@ -15053,7 +15060,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR049")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -15068,7 +15075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e13f2256-f22f-48b6-8dfd-8607d6d2ba04")
-		(property "Reference" "R23"
+		(property "Reference" "R101"
 			(at 77.47 46.99 90)
 			(effects
 				(font
@@ -15120,7 +15127,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R23")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -15135,7 +15142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1782b1a-ae67-4042-8192-782d114a9a19")
-		(property "Reference" "R5"
+		(property "Reference" "R107"
 			(at 77.47 106.68 90)
 			(effects
 				(font
@@ -15187,7 +15194,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R5")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -15204,7 +15211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e61f4822-74eb-41b3-bab9-dd9200e3f2e7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0126"
 			(at 25.4 85.09 0)
 			(effects
 				(font
@@ -15254,7 +15261,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR06")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -15269,7 +15276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e70ebe9a-d718-4074-8091-f0f557a1518a")
-		(property "Reference" "C93"
+		(property "Reference" "C117"
 			(at 264.16 127 0)
 			(effects
 				(font
@@ -15323,7 +15330,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "C93")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -15338,7 +15345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4a685b0-9430-4344-b67f-dc0a19bd35db")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG0101"
 			(at 118.11 41.275 0)
 			(effects
 				(font
@@ -15388,7 +15395,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#FLG02")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -15404,7 +15411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d904c7-2bdd-4b17-902b-293b634e62e6")
-		(property "Reference" "JP1"
+		(property "Reference" "JP101"
 			(at 43.18 45.72 0)
 			(effects
 				(font
@@ -15456,7 +15463,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "JP1")
+					(reference "JP101")
 					(unit 1)
 				)
 			)
@@ -15471,7 +15478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb8725ba-dc0b-4850-a8b3-7aac4d68743b")
-		(property "Reference" "J39"
+		(property "Reference" "J103"
 			(at 277.622 108.204 0)
 			(effects
 				(font
@@ -15537,7 +15544,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "J39")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -15553,7 +15560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fde9b213-740e-4fe4-aeb8-62e9ae53a116")
-		(property "Reference" "#PWR0262"
+		(property "Reference" "#PWR0104"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -15603,7 +15610,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "#PWR0262")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -15618,7 +15625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff8f6b38-0514-4a0c-bf31-64d98c6a2c53")
-		(property "Reference" "R3"
+		(property "Reference" "R102"
 			(at 77.47 60.96 90)
 			(effects
 				(font
@@ -15670,7 +15677,7 @@
 		(instances
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1"
-					(reference "R3")
+					(reference "R102")
 					(unit 1)
 				)
 			)
