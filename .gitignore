@@ -1,5 +1,6 @@
 kicad/*-backups
 model/exports
+**.fcbak
 
 # Prerequisites
 *.d
