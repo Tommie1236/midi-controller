@@ -81,26 +81,26 @@ x23
 x24
 
 user buttons:
-u1
-u2
-u3
-u4
+u1			x
+u2			x
+u3			x
+u4			x
 
-u5
-u6
-u7
-u8
+u5			x
+u6			x
+u7			x
+u8			x
 
 miscellaneous:
 bo
 bpm
 
 bank presets:
-b1
-b2
-b3
-b4
-b5
+b1			x
+b2			x
+b3			x
+b4			x
+b5			x
 
 bank controls:
 ^
