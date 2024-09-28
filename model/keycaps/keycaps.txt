@@ -92,8 +92,8 @@ u7			x
 u8			x
 
 miscellaneous:
-bo
-bpm
+bo 			x
+bpm			x
 
 bank presets:
 b1			x
