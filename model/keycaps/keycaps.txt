@@ -1,52 +1,57 @@
-1		x
-2 		x	
-3 		x
-4 		x
-5 		x
-6 		x
-7 		x
-8 		x
-9 		x
-10 		x
+keycap		done
 
-11 		x
-12 		x
-13 		x
-14 		x
-15 		x
-16 		x
-17 		x
-18 		x
-19 		x
-20 		x
+fader wing buttons:
+1			x
+2 			x	
+3 			x
+4 			x
+5 			x
+6 			x
+7 			x
+8 			x
+9 			x
+10 			x
 
-21 		x
-22 		x
-23 		x
-24 		x
-25 		x
-26 		x
-27 		x
-28 		x
-29 		x
-30 		x
+11 			x
+12 			x
+13 			x
+14 			x
+15 			x
+16 			x
+17 			x
+18 			x
+19 			x
+20 			x
 
-1 		x
-2 		x
-3 		x
-4 		x
-5 		x
-6 		x
-7 		x
-8 		x
-9 		x
-0 		x
-- 		x
-+ 		x
-. 		x
+21 			x
+22 			x
+23 			x
+24 			x
+25 			x
+26 			x
+27 			x
+28 			x
+29 			x
+30 			x
+
+numpad:
+1 			x
+2 			x
+3 			x
+4 			x
+5 			x
+6 			x
+7 			x
+8 			x
+9 			x
+0 			x
+- 			x
++ 			x
+. 			x
 backspace	x
 enter (1x2)	x
 
+executors:
 x01
 x02
 x03
@@ -75,6 +80,7 @@ x22
 x23
 x24
 
+user buttons:
 u1
 u2
 u3
@@ -85,14 +91,17 @@ u6
 u7
 u8
 
+miscellaneous:
 bo
 bpm
 
+bank presets:
 b1
 b2
 b3
 b4
 b5
 
+bank controls:
 ^
 v
