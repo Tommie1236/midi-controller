@@ -1,0 +1,16 @@
+name: render drawio
+
+on: [push, pull_request]
+
+jobs:
+  render_drawio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Convert diagram to png
+        uses: Burnett01/actions-drawio@1.2
+        with:
+          src: model/layout.drawio
+          dest: model/render/layout.png
