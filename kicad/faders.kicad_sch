@@ -8265,7 +8265,7 @@
 		(uuid "1a71edd9-f20a-4351-bf6b-70c163d3357f")
 	)
 	(junction
-		(at 407.67 177.8)
+		(at 410.21 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fa3bfd9-0a9d-49d9-80ee-86e4e76589c6")
@@ -8367,13 +8367,13 @@
 		(uuid "3fd13d52-7441-4859-8afd-55abfff23a96")
 	)
 	(junction
-		(at 412.75 177.8)
+		(at 415.29 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44569909-6df9-4df3-97a2-fbc8fd7f0d50")
 	)
 	(junction
-		(at 407.67 167.64)
+		(at 410.21 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44c28f42-d021-46ce-8535-2991008d85f7")
@@ -8433,7 +8433,7 @@
 		(uuid "5dc13ae1-1a2d-453a-9d3d-b39b3fbbd4db")
 	)
 	(junction
-		(at 412.75 167.64)
+		(at 415.29 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e08c38b-fbc9-43b2-87ae-6c45ba24f306")
@@ -8595,7 +8595,7 @@
 		(uuid "8e2a19a8-1d57-43b7-97a0-dd94c0f6c3e0")
 	)
 	(junction
-		(at 402.59 167.64)
+		(at 405.13 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ec6d1a4-f5cb-44a0-acf5-59d4890402bc")
@@ -8625,7 +8625,7 @@
 		(uuid "9862cd8a-05c4-4dff-b725-22933795a8f2")
 	)
 	(junction
-		(at 393.7 167.64)
+		(at 396.24 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b860be6-3630-4be6-87d4-fdc577fcd8fe")
@@ -8697,6 +8697,12 @@
 		(uuid "b58c0ebb-f61a-47ea-805e-eb72e9126db6")
 	)
 	(junction
+		(at 396.24 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6bbace5-603f-4cce-846d-3f9fdca0c8d4")
+	)
+	(junction
 		(at 153.67 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8745,7 +8751,7 @@
 		(uuid "d3e0a025-4b0f-4b7b-89fd-91d42050d588")
 	)
 	(junction
-		(at 417.83 177.8)
+		(at 420.37 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6a24c4b-391f-4b60-b853-d58549f37d0f")
@@ -8775,7 +8781,7 @@
 		(uuid "df4f2def-5ec2-4e8a-8b2a-51379dadfaef")
 	)
 	(junction
-		(at 402.59 177.8)
+		(at 405.13 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfa5c1ea-e3c9-40d4-8c4a-143c5dfce8ac")
@@ -8835,7 +8841,7 @@
 		(uuid "f0c89871-2fd7-46b6-ac75-fe10a822de60")
 	)
 	(junction
-		(at 397.51 167.64)
+		(at 400.05 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6273915-804b-4004-8401-8855375206d2")
@@ -9010,7 +9016,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 176.53) (xy 397.51 177.8)
+			(xy 400.05 180.34) (xy 400.05 181.61)
 		)
 		(stroke
 			(width 0)
@@ -9470,7 +9476,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 167.64) (xy 407.67 167.64)
+			(xy 415.29 171.45) (xy 410.21 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9490,7 +9496,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 177.8) (xy 417.83 179.07)
+			(xy 420.37 181.61) (xy 420.37 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9860,7 +9866,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 167.64) (xy 407.67 168.91)
+			(xy 410.21 171.45) (xy 410.21 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9880,7 +9886,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 167.64) (xy 397.51 167.64)
+			(xy 405.13 171.45) (xy 400.05 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9920,7 +9926,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 176.53) (xy 389.89 179.07)
+			(xy 392.43 180.34) (xy 392.43 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10590,7 +10596,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 177.8) (xy 412.75 177.8)
+			(xy 410.21 181.61) (xy 415.29 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10970,7 +10976,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 168.91) (xy 389.89 167.64)
+			(xy 392.43 172.72) (xy 392.43 171.45)
 		)
 		(stroke
 			(width 0)
@@ -11110,7 +11116,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 167.64) (xy 402.59 168.91)
+			(xy 405.13 171.45) (xy 405.13 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11860,7 +11866,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 176.53) (xy 417.83 177.8)
+			(xy 420.37 180.34) (xy 420.37 181.61)
 		)
 		(stroke
 			(width 0)
@@ -12560,7 +12566,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 168.91) (xy 397.51 167.64)
+			(xy 400.05 172.72) (xy 400.05 171.45)
 		)
 		(stroke
 			(width 0)
@@ -12920,7 +12926,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 176.53) (xy 402.59 177.8)
+			(xy 405.13 180.34) (xy 405.13 181.61)
 		)
 		(stroke
 			(width 0)
@@ -13100,7 +13106,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 177.8) (xy 407.67 177.8)
+			(xy 405.13 181.61) (xy 410.21 181.61)
 		)
 		(stroke
 			(width 0)
@@ -13670,7 +13676,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 166.37) (xy 393.7 167.64)
+			(xy 396.24 170.18) (xy 396.24 171.45)
 		)
 		(stroke
 			(width 0)
@@ -14960,7 +14966,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 167.64) (xy 393.7 167.64)
+			(xy 400.05 171.45) (xy 396.24 171.45)
 		)
 		(stroke
 			(width 0)
@@ -15130,7 +15136,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 167.64) (xy 417.83 168.91)
+			(xy 420.37 171.45) (xy 420.37 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15150,7 +15156,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 176.53) (xy 412.75 177.8)
+			(xy 415.29 180.34) (xy 415.29 181.61)
 		)
 		(stroke
 			(width 0)
@@ -15180,7 +15186,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 176.53) (xy 407.67 177.8)
+			(xy 410.21 180.34) (xy 410.21 181.61)
 		)
 		(stroke
 			(width 0)
@@ -15210,7 +15216,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 177.8) (xy 417.83 177.8)
+			(xy 415.29 181.61) (xy 420.37 181.61)
 		)
 		(stroke
 			(width 0)
@@ -15340,7 +15346,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 167.64) (xy 393.7 167.64)
+			(xy 392.43 171.45) (xy 396.24 171.45)
 		)
 		(stroke
 			(width 0)
@@ -16400,7 +16406,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 167.64) (xy 412.75 167.64)
+			(xy 420.37 171.45) (xy 415.29 171.45)
 		)
 		(stroke
 			(width 0)
@@ -16930,7 +16936,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 167.64) (xy 393.7 190.5)
+			(xy 396.24 171.45) (xy 396.24 190.5)
 		)
 		(stroke
 			(width 0)
@@ -17260,7 +17266,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 167.64) (xy 412.75 168.91)
+			(xy 415.29 171.45) (xy 415.29 172.72)
 		)
 		(stroke
 			(width 0)
@@ -17570,7 +17576,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 177.8) (xy 402.59 177.8)
+			(xy 400.05 181.61) (xy 405.13 181.61)
 		)
 		(stroke
 			(width 0)
@@ -17930,7 +17936,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 167.64) (xy 402.59 167.64)
+			(xy 410.21 171.45) (xy 405.13 171.45)
 		)
 		(stroke
 			(width 0)
@@ -18166,7 +18172,7 @@
 	)
 	(text "place c8\nclose to\npin 44\nof rp2040"
 		(exclude_from_sim no)
-		(at 378.46 176.53 0)
+		(at 381 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18465,9 +18471,22 @@
 		)
 		(uuid "fe5f81f8-c8cb-4cdb-90d2-6c6bf9666e17")
 	)
+	(text "TODO:\n\nmove display and drive circuits to 4xx pcb.\n\nupdate references on all schematic and pcb's"
+		(exclude_from_sim no)
+		(at 42.418 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "fe9ac078-d078-4e0e-91d6-12cf45dddb0f")
+	)
 	(text "Put c329-c333 on the motor\nterminals/faders directly\nuse ceramic 100nf cap\n\nc320,322,324,326,328\nshould be ceramic"
 		(exclude_from_sim no)
-		(at -27.94 194.31 0)
+		(at 282.448 174.244 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19502,7 +19521,7 @@
 	)
 	(global_label "TLC_BLANK"
 		(shape input)
-		(at 427.99 232.41 0)
+		(at 431.8 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19512,7 +19531,7 @@
 		)
 		(uuid "24ee588a-faa3-4841-96ce-eddabaa57a8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 441.1957 232.41 0)
+			(at 445.0057 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19546,7 +19565,7 @@
 	)
 	(global_label "CS_U15"
 		(shape input)
-		(at 427.99 237.49 0)
+		(at 431.8 240.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19556,7 +19575,7 @@
 		)
 		(uuid "285f7d8e-e006-4daa-a980-1c0e70466e3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 438.1718 237.49 0)
+			(at 441.9818 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20359,7 +20378,7 @@
 	)
 	(global_label "PIO_TLC_CLK"
 		(shape input)
-		(at 427.99 227.33 0)
+		(at 431.8 229.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20369,7 +20388,7 @@
 		)
 		(uuid "46561df0-3556-46d5-a956-162c075d2d29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 442.9495 227.33 0)
+			(at 446.7595 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22624,7 +22643,7 @@
 	)
 	(global_label "RST_OUT"
 		(shape input)
-		(at 427.99 234.95 0)
+		(at 431.8 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22634,7 +22653,7 @@
 		)
 		(uuid "976cea06-8b49-4367-8f4b-430f487cb27c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.0185 234.95 0)
+			(at 442.8285 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23988,7 +24007,7 @@
 	)
 	(global_label "LED_PIO_OUT"
 		(shape input)
-		(at 427.99 222.25 0)
+		(at 431.8 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23998,7 +24017,7 @@
 		)
 		(uuid "c406f978-3a01-43af-93d3-af5f6dfe881b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 443.1914 222.25 0)
+			(at 447.0014 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24954,7 +24973,7 @@
 	)
 	(global_label "TCL_LATCH"
 		(shape input)
-		(at 427.99 229.87 0)
+		(at 431.8 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24964,7 +24983,7 @@
 		)
 		(uuid "ea314ecc-028f-469d-ad4f-5183c7c6e59e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 440.8933 229.87 0)
+			(at 444.7033 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25042,7 +25061,7 @@
 	)
 	(global_label "PIO_TLC_MOSI"
 		(shape input)
-		(at 427.99 224.79 0)
+		(at 431.8 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25052,7 +25071,7 @@
 		)
 		(uuid "edf00931-9f51-498b-9486-35955b8d2d9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 443.9776 224.79 0)
+			(at 447.7876 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25335,7 +25354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "012befbe-2087-4d32-ad73-d95d44c2e006")
-		(property "Reference" "C72"
+		(property "Reference" "C301"
 			(at 66.04 306.07 0)
 			(effects
 				(font
@@ -25389,7 +25408,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C72")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -25553,7 +25572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0630398c-2b36-48a5-8e98-78cb6d8e8af0")
-		(property "Reference" "C71"
+		(property "Reference" "C318"
 			(at 223.52 332.74 0)
 			(effects
 				(font
@@ -25607,7 +25626,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C71")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -25699,7 +25718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0780aabd-7942-4ab0-99e8-ec7aa52bb2cf")
-		(property "Reference" "R38"
+		(property "Reference" "R307"
 			(at 40.64 382.27 90)
 			(effects
 				(font
@@ -25751,7 +25770,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R38")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -25773,7 +25792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "094b9ade-48eb-47bf-a21e-f0289050b5f4")
-		(property "Reference" "RV1"
+		(property "Reference" "RV301"
 			(at 34.29 363.22 0)
 			(effects
 				(font
@@ -25830,7 +25849,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "RV1")
+					(reference "RV301")
 					(unit 1)
 				)
 			)
@@ -25924,7 +25943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b74e926-6f10-4b3f-a187-c8a66e2a1e7f")
-		(property "Reference" "J32"
+		(property "Reference" "J312"
 			(at 269.24 365.76 0)
 			(effects
 				(font
@@ -25990,7 +26009,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J32")
+					(reference "J312")
 					(unit 1)
 				)
 			)
@@ -26011,7 +26030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bc213a3-6498-4d6e-b513-e9403cd32982")
-		(property "Reference" "C59"
+		(property "Reference" "C327"
 			(at 245.11 173.99 0)
 			(effects
 				(font
@@ -26065,7 +26084,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C59")
+					(reference "C327")
 					(unit 1)
 				)
 			)
@@ -26086,7 +26105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c7858b0-9d25-4e8f-9590-38162c1c5685")
-		(property "Reference" "R24"
+		(property "Reference" "R316"
 			(at 58.42 144.78 90)
 			(effects
 				(font
@@ -26138,7 +26157,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R24")
+					(reference "R316")
 					(unit 1)
 				)
 			)
@@ -26159,7 +26178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c88aa9b-5e1f-4698-9c29-d802f5490fec")
-		(property "Reference" "DS5"
+		(property "Reference" "DS305"
 			(at 247.65 144.78 0)
 			(effects
 				(font
@@ -26246,7 +26265,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "DS5")
+					(reference "DS305")
 					(unit 1)
 				)
 			)
@@ -26626,7 +26645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11d6ae6d-b830-4493-af24-0f57448dabb0")
-		(property "Reference" "SW13"
+		(property "Reference" "SW302"
 			(at 140.97 245.11 0)
 			(effects
 				(font
@@ -26678,7 +26697,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "SW13")
+					(reference "SW302")
 					(unit 1)
 				)
 			)
@@ -26699,7 +26718,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "12356e54-4541-4cce-a3cf-9cb1da79e0a1")
-		(property "Reference" "C61"
+		(property "Reference" "C329"
 			(at 53.975 189.23 0)
 			(effects
 				(font
@@ -26753,7 +26772,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C61")
+					(reference "C329")
 					(unit 1)
 				)
 			)
@@ -26774,7 +26793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12371ec7-ae4a-4fca-9798-c7943fd06fb7")
-		(property "Reference" "SW15"
+		(property "Reference" "SW304"
 			(at 242.57 245.11 0)
 			(effects
 				(font
@@ -26826,7 +26845,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "SW15")
+					(reference "SW304")
 					(unit 1)
 				)
 			)
@@ -26899,6 +26918,12 @@
 			(uuid "2025f214-2f43-433f-b2ef-b9ab63f12a4d")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C304")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C304")
@@ -26916,7 +26941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13c69abd-d3f9-4622-8900-7a8badae58fd")
-		(property "Reference" "SW14"
+		(property "Reference" "SW303"
 			(at 191.77 245.11 0)
 			(effects
 				(font
@@ -26968,7 +26993,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "SW14")
+					(reference "SW303")
 					(unit 1)
 				)
 			)
@@ -26989,7 +27014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13cf415c-376f-4900-9e19-6d74ea62e7c3")
-		(property "Reference" "R25"
+		(property "Reference" "R317"
 			(at 109.22 144.78 90)
 			(effects
 				(font
@@ -27041,7 +27066,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R25")
+					(reference "R317")
 					(unit 1)
 				)
 			)
@@ -27063,7 +27088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16ac721a-07f1-498f-baa6-40efd98d3564")
-		(property "Reference" "J19"
+		(property "Reference" "J307"
 			(at 524.51 223.52 0)
 			(effects
 				(font
@@ -27129,7 +27154,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J19")
+					(reference "J307")
 					(unit 1)
 				)
 			)
@@ -27150,7 +27175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "171bf4fa-6c04-4b5c-9415-f0a4cab54901")
-		(property "Reference" "DS3"
+		(property "Reference" "DS303"
 			(at 146.05 144.78 0)
 			(effects
 				(font
@@ -27237,7 +27262,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "DS3")
+					(reference "DS303")
 					(unit 1)
 				)
 			)
@@ -27330,7 +27355,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "1890e560-9f3e-48e3-add5-11e958c534aa")
-		(property "Reference" "C65"
+		(property "Reference" "C333"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -27384,7 +27409,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C65")
+					(reference "C333")
 					(unit 1)
 				)
 			)
@@ -27399,7 +27424,7 @@
 	(symbol
 		(lib_name "GND_8")
 		(lib_id "power:GND")
-		(at 417.83 179.07 0)
+		(at 420.37 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27407,7 +27432,7 @@
 		(dnp no)
 		(uuid "1afa3afc-4d99-437a-8ec6-e566424bed08")
 		(property "Reference" "#PWR0245"
-			(at 417.83 185.42 0)
+			(at 420.37 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27416,7 +27441,7 @@
 			)
 		)
 		(property "Value" "FGND"
-			(at 417.83 182.88 0)
+			(at 420.37 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27424,7 +27449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 417.83 179.07 0)
+			(at 420.37 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27433,7 +27458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 417.83 179.07 0)
+			(at 420.37 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27442,7 +27467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 417.83 179.07 0)
+			(at 420.37 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27694,6 +27719,12 @@
 			(uuid "d0df0e06-cdd0-43b5-b6f7-39819548dba0")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "U309")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "U309")
@@ -27834,6 +27865,12 @@
 			(uuid "44a385a8-c3bb-4f7d-8989-d3a6d57291f7")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "X301")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "X301")
@@ -27925,7 +27962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ec4aab9-1902-4490-bf13-d51a72b4dc9e")
-		(property "Reference" "MF3"
+		(property "Reference" "MF303"
 			(at 144.78 220.98 0)
 			(effects
 				(font
@@ -27992,7 +28029,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "MF3")
+					(reference "MF303")
 					(unit 1)
 				)
 			)
@@ -28365,7 +28402,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 417.83 172.72 0)
+		(at 420.37 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28373,7 +28410,7 @@
 		(dnp no)
 		(uuid "24a23a2a-d594-4d17-ac2b-c293a04288f9")
 		(property "Reference" "C310"
-			(at 417.83 170.18 0)
+			(at 420.37 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28382,7 +28419,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 417.83 175.26 0)
+			(at 420.37 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28391,7 +28428,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 418.7952 176.53 0)
+			(at 421.3352 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28400,7 +28437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 417.83 172.72 0)
+			(at 420.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28409,7 +28446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 417.83 172.72 0)
+			(at 420.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28424,6 +28461,12 @@
 			(uuid "f87f9160-d20f-4893-9270-7860c446141a")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C310")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C310")
@@ -28576,7 +28619,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 407.67 172.72 0)
+		(at 410.21 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28584,7 +28627,7 @@
 		(dnp no)
 		(uuid "27212d28-584c-4fdb-9022-716b14c0eb55")
 		(property "Reference" "C308"
-			(at 407.67 170.18 0)
+			(at 410.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28593,7 +28636,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 407.67 175.26 0)
+			(at 410.21 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28602,7 +28645,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 408.6352 176.53 0)
+			(at 411.1752 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28611,7 +28654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 172.72 0)
+			(at 410.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28620,7 +28663,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 407.67 172.72 0)
+			(at 410.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28635,6 +28678,12 @@
 			(uuid "be266db7-7e0e-4f3d-9534-f88c6a6243ac")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C308")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C308")
@@ -28652,7 +28701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "278df5be-c973-473b-8052-c3f4fbda9886")
-		(property "Reference" "C48"
+		(property "Reference" "C316"
 			(at 146.05 353.06 0)
 			(effects
 				(font
@@ -28706,7 +28755,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C48")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -29013,6 +29062,12 @@
 			(uuid "4fe31874-ff50-41e6-ba28-ffaebac3d0de")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "J301")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "J301")
@@ -29386,7 +29441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33cc2912-3813-423f-9476-fda173cb510a")
-		(property "Reference" "C60"
+		(property "Reference" "C328"
 			(at 250.19 173.99 0)
 			(effects
 				(font
@@ -29440,7 +29495,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C60")
+					(reference "C328")
 					(unit 1)
 				)
 			)
@@ -29848,6 +29903,12 @@
 			(uuid "1f7372cf-d097-4920-98c4-d3b1a9cfc340")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "U312")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "U312")
@@ -29936,7 +29997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3aba3d74-17f1-46b2-9aad-db88873042fc")
-		(property "Reference" "DS4"
+		(property "Reference" "DS304"
 			(at 196.85 144.78 0)
 			(effects
 				(font
@@ -30023,7 +30084,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "DS4")
+					(reference "DS304")
 					(unit 1)
 				)
 			)
@@ -30449,6 +30510,12 @@
 			(uuid "43426fc0-5fa4-46f3-a9e7-0f507a0942c7")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R303")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R303")
@@ -30754,6 +30821,12 @@
 			(uuid "8e7ba04d-6bd2-49f6-a026-f09bf4b2dae7")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "U301")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "U301")
@@ -30915,6 +30988,12 @@
 			(uuid "8aba8b09-850b-4d4e-b38b-91a59f9a8d8c")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "U311")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "U311")
@@ -31004,7 +31083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43ab2775-0f9c-44a9-9525-3b9d5aa51548")
-		(property "Reference" "C53"
+		(property "Reference" "C321"
 			(at 92.075 173.99 0)
 			(effects
 				(font
@@ -31058,7 +31137,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C53")
+					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -31451,7 +31530,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 389.89 172.72 0)
+		(at 392.43 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31459,7 +31538,7 @@
 		(dnp no)
 		(uuid "4cc5c5c3-1854-484c-9943-0e776c167fe9")
 		(property "Reference" "C305"
-			(at 389.89 170.18 0)
+			(at 392.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31468,7 +31547,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 389.89 175.26 0)
+			(at 392.43 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31477,7 +31556,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 390.8552 176.53 0)
+			(at 393.3952 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31486,7 +31565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 172.72 0)
+			(at 392.43 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31495,7 +31574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 389.89 172.72 0)
+			(at 392.43 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31510,6 +31589,12 @@
 			(uuid "4c2cbf28-a6ef-4b7c-9aa5-18ae73ae3cba")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C305")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C305")
@@ -31527,7 +31612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d9c4240-a478-4729-8d7a-d893aa1d79bf")
-		(property "Reference" "R39"
+		(property "Reference" "R308"
 			(at 40.64 384.81 90)
 			(effects
 				(font
@@ -31579,7 +31664,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R39")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -31955,7 +32040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52f89b74-352c-4237-8306-ee1c8803c700")
-		(property "Reference" "J15"
+		(property "Reference" "J302"
 			(at 43.18 297.18 0)
 			(effects
 				(font
@@ -32021,7 +32106,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J15")
+					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -32186,7 +32271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a7e90a-6b37-4a1d-9299-cc873caece72")
-		(property "Reference" "U24"
+		(property "Reference" "U305"
 			(at 101.6 367.0299 90)
 			(effects
 				(font
@@ -32242,7 +32327,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "U24")
+					(reference "U305")
 					(unit 1)
 				)
 			)
@@ -32418,7 +32503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a269e2e-3b6b-4621-9f35-3da9d1f64ca5")
-		(property "Reference" "MF5"
+		(property "Reference" "MF305"
 			(at 246.38 220.98 0)
 			(effects
 				(font
@@ -32485,7 +32570,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "MF5")
+					(reference "MF305")
 					(unit 1)
 				)
 			)
@@ -32790,7 +32875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d8d6370-387d-4b7f-8d6c-e2e13f6bdcab")
-		(property "Reference" "C35"
+		(property "Reference" "C313"
 			(at 59.69 354.33 0)
 			(effects
 				(font
@@ -32844,7 +32929,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C35")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -32866,7 +32951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d965d40-cfa9-4890-8c0a-5cd5ac0328e4")
-		(property "Reference" "R42"
+		(property "Reference" "R313"
 			(at 76.2 368.3 90)
 			(effects
 				(font
@@ -32918,7 +33003,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R42")
+					(reference "R313")
 					(unit 1)
 				)
 			)
@@ -32939,7 +33024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e6e0217-0f53-4556-9313-0be802475580")
-		(property "Reference" "J18"
+		(property "Reference" "J309"
 			(at 524.51 248.92 0)
 			(effects
 				(font
@@ -33002,7 +33087,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J18")
+					(reference "J309")
 					(unit 1)
 				)
 			)
@@ -33023,7 +33108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e9d4324-b94d-4055-bf37-aa5ab6eaaed6")
-		(property "Reference" "C47"
+		(property "Reference" "C315"
 			(at 140.97 353.06 0)
 			(effects
 				(font
@@ -33077,7 +33162,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C47")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -33405,7 +33490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60dc80aa-780f-4cb3-9ae8-fe3bdca590bc")
-		(property "Reference" "C45"
+		(property "Reference" "C334"
 			(at 524.51 299.72 0)
 			(effects
 				(font
@@ -33459,7 +33544,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C45")
+					(reference "C334")
 					(unit 1)
 				)
 			)
@@ -33474,7 +33559,7 @@
 	(symbol
 		(lib_name "GND_9")
 		(lib_id "power:GND")
-		(at 389.89 179.07 0)
+		(at 392.43 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33482,7 +33567,7 @@
 		(dnp no)
 		(uuid "60dd287a-c889-416a-b367-ec7d95e43bb6")
 		(property "Reference" "#PWR0234"
-			(at 389.89 185.42 0)
+			(at 392.43 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33491,7 +33576,7 @@
 			)
 		)
 		(property "Value" "FGND"
-			(at 389.89 182.88 0)
+			(at 392.43 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33499,7 +33584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 389.89 179.07 0)
+			(at 392.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33508,7 +33593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 389.89 179.07 0)
+			(at 392.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33517,7 +33602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 389.89 179.07 0)
+			(at 392.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33602,6 +33687,12 @@
 			(uuid "c9072157-8339-4872-9841-ae0ed9a2e022")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C339")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C339")
@@ -33690,7 +33781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6310799d-503f-4263-8220-576480fa5172")
-		(property "Reference" "C66"
+		(property "Reference" "C302"
 			(at 73.66 306.07 0)
 			(effects
 				(font
@@ -33744,7 +33835,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C66")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -33978,7 +34069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64d15ba6-cd72-425a-bb65-1f43ef87ebed")
-		(property "Reference" "C58"
+		(property "Reference" "C326"
 			(at 199.39 173.99 0)
 			(effects
 				(font
@@ -34032,7 +34123,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C58")
+					(reference "C326")
 					(unit 1)
 				)
 			)
@@ -34259,6 +34350,12 @@
 			(uuid "a560f6c1-08c6-45a2-96dc-1c2189bb4af2")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C337")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C337")
@@ -34358,7 +34455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "687f65b2-fd7f-4cbb-958f-1c2b96f05241")
-		(property "Reference" "MF2"
+		(property "Reference" "MF302"
 			(at 93.98 220.98 0)
 			(effects
 				(font
@@ -34425,7 +34522,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "MF2")
+					(reference "MF302")
 					(unit 1)
 				)
 			)
@@ -34446,7 +34543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69ef4ed8-84e2-4652-b200-0c684346dbd5")
-		(property "Reference" "R36"
+		(property "Reference" "R305"
 			(at 40.64 377.19 90)
 			(effects
 				(font
@@ -34498,7 +34595,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R36")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -34644,6 +34741,12 @@
 			(uuid "b1a060f5-c30a-4e2c-8526-4109ef9e0184")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C338")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C338")
@@ -35041,7 +35144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "766d8bc8-b47d-41e6-8596-6d575358f47b")
-		(property "Reference" "C54"
+		(property "Reference" "C322"
 			(at 97.155 173.99 0)
 			(effects
 				(font
@@ -35095,7 +35198,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C54")
+					(reference "C322")
 					(unit 1)
 				)
 			)
@@ -35265,7 +35368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78947588-9052-423c-bfd9-ca9f6987c55a")
-		(property "Reference" "SW11"
+		(property "Reference" "SW300"
 			(at 39.37 245.11 0)
 			(effects
 				(font
@@ -35317,7 +35420,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "SW11")
+					(reference "SW300")
 					(unit 1)
 				)
 			)
@@ -36106,7 +36209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e7939f8-4084-426f-be1b-8b189e7a6ac5")
-		(property "Reference" "MF1"
+		(property "Reference" "MF301"
 			(at 43.18 220.98 0)
 			(effects
 				(font
@@ -36173,7 +36276,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "MF1")
+					(reference "MF301")
 					(unit 1)
 				)
 			)
@@ -36359,7 +36462,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "80451c84-2cf7-4ce9-8223-bba7ef0eae98")
-		(property "Reference" "C62"
+		(property "Reference" "C330"
 			(at 104.775 189.23 0)
 			(effects
 				(font
@@ -36413,7 +36516,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C62")
+					(reference "C330")
 					(unit 1)
 				)
 			)
@@ -36507,6 +36610,12 @@
 			(uuid "d2b4d0d1-9585-45fd-ba35-c5481aadd929")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "U308")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "U308")
@@ -36524,7 +36633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81b5335b-2cbd-4fea-9f9e-960c75c28500")
-		(property "Reference" "C55"
+		(property "Reference" "C323"
 			(at 143.51 173.863 0)
 			(effects
 				(font
@@ -36578,7 +36687,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C55")
+					(reference "C323")
 					(unit 1)
 				)
 			)
@@ -36600,7 +36709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "823a8824-c09a-47be-bc2c-babac9b058b1")
-		(property "Reference" "R45"
+		(property "Reference" "R310"
 			(at 76.2 360.68 90)
 			(effects
 				(font
@@ -36652,7 +36761,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R45")
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -36666,7 +36775,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 412.75 172.72 0)
+		(at 415.29 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36674,7 +36783,7 @@
 		(dnp no)
 		(uuid "82f27b3b-e976-46b3-a483-2e58fceedcf7")
 		(property "Reference" "C309"
-			(at 412.75 170.18 0)
+			(at 415.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36683,7 +36792,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 412.75 175.26 0)
+			(at 415.29 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36692,7 +36801,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 413.7152 176.53 0)
+			(at 416.2552 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36701,7 +36810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 412.75 172.72 0)
+			(at 415.29 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36710,7 +36819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 412.75 172.72 0)
+			(at 415.29 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36725,6 +36834,12 @@
 			(uuid "f648b6fa-9719-40cd-bd81-5c122ade00ff")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C309")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C309")
@@ -36967,7 +37082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8747f4dd-0c05-4714-928b-9bded7d3785b")
-		(property "Reference" "MF4"
+		(property "Reference" "MF304"
 			(at 195.58 220.98 0)
 			(effects
 				(font
@@ -37034,7 +37149,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "MF4")
+					(reference "MF304")
 					(unit 1)
 				)
 			)
@@ -37176,6 +37291,12 @@
 			(uuid "f6cfefab-e1d3-4d4b-8e6e-87a6082b1d39")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R321")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R321")
@@ -37193,7 +37314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88dd0375-fe61-4b12-9398-91ff7f21df72")
-		(property "Reference" "R37"
+		(property "Reference" "R306"
 			(at 40.64 379.73 90)
 			(effects
 				(font
@@ -37245,7 +37366,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R37")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -37402,7 +37523,7 @@
 	(symbol
 		(lib_name "+3V3_4")
 		(lib_id "power:+3V3")
-		(at 393.7 166.37 0)
+		(at 396.24 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37410,7 +37531,7 @@
 		(dnp no)
 		(uuid "8b225998-0f4d-47f8-8468-9d03515f99e4")
 		(property "Reference" "#PWR0237"
-			(at 393.7 170.18 0)
+			(at 396.24 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37419,7 +37540,7 @@
 			)
 		)
 		(property "Value" "+F3V3"
-			(at 393.7 162.56 0)
+			(at 396.24 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37427,7 +37548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 393.7 166.37 0)
+			(at 396.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37436,7 +37557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 393.7 166.37 0)
+			(at 396.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37445,7 +37566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 393.7 166.37 0)
+			(at 396.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37480,7 +37601,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "8b3e873c-ffed-4ce2-9bf5-c5077d0e7a4a")
-		(property "Reference" "C64"
+		(property "Reference" "C332"
 			(at 207.01 189.23 0)
 			(effects
 				(font
@@ -37534,7 +37655,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C64")
+					(reference "C332")
 					(unit 1)
 				)
 			)
@@ -38106,6 +38227,12 @@
 			(uuid "1339ddd8-2b2e-4deb-a507-4bedacb7de3c")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C312")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C312")
@@ -38401,7 +38528,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 397.51 172.72 0)
+		(at 400.05 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38409,7 +38536,7 @@
 		(dnp no)
 		(uuid "94f14aee-00be-4395-b8e1-2034cdef7956")
 		(property "Reference" "C306"
-			(at 397.51 170.18 0)
+			(at 400.05 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38418,7 +38545,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 397.51 175.26 0)
+			(at 400.05 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38427,7 +38554,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 398.4752 176.53 0)
+			(at 401.0152 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38436,7 +38563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 397.51 172.72 0)
+			(at 400.05 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38445,7 +38572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 397.51 172.72 0)
+			(at 400.05 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38460,6 +38587,12 @@
 			(uuid "ccdeceae-cf9a-4862-84bf-d199bf06046a")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C306")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C306")
@@ -38598,6 +38731,12 @@
 			(uuid "92db6a6e-1b49-4264-af7f-ba7e7ff4e5ac")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R302")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R302")
@@ -38616,7 +38755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "971f9efc-1619-4810-b635-1ef5d6495fd3")
-		(property "Reference" "R43"
+		(property "Reference" "R312"
 			(at 76.2 365.76 90)
 			(effects
 				(font
@@ -38668,7 +38807,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R43")
+					(reference "R312")
 					(unit 1)
 				)
 			)
@@ -38739,6 +38878,12 @@
 			(uuid "85bbf550-89bc-432d-9fa8-9ad4ee3b0e1a")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R325")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R325")
@@ -38756,7 +38901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98ec9029-8a64-4b5d-bc10-e8d7f50c82b0")
-		(property "Reference" "C52"
+		(property "Reference" "C320"
 			(at 46.355 173.99 0)
 			(effects
 				(font
@@ -38810,7 +38955,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C52")
+					(reference "C320")
 					(unit 1)
 				)
 			)
@@ -38902,7 +39047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9af47106-8c23-4612-a4eb-636fb5323717")
-		(property "Reference" "R27"
+		(property "Reference" "R319"
 			(at 210.82 144.78 90)
 			(effects
 				(font
@@ -38954,7 +39099,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R27")
+					(reference "R319")
 					(unit 1)
 				)
 			)
@@ -39117,7 +39262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e463436-22e6-4680-bd9f-de0dd51c0a1b")
-		(property "Reference" "J14"
+		(property "Reference" "J303"
 			(at 29.21 297.18 0)
 			(effects
 				(font
@@ -39183,7 +39328,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J14")
+					(reference "J303")
 					(unit 1)
 				)
 			)
@@ -39197,7 +39342,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 402.59 172.72 0)
+		(at 405.13 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39205,7 +39350,7 @@
 		(dnp no)
 		(uuid "9e782e08-4188-48b8-b125-efbdf79cb477")
 		(property "Reference" "C307"
-			(at 402.59 170.18 0)
+			(at 405.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39214,7 +39359,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 402.59 175.26 0)
+			(at 405.13 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39223,7 +39368,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 403.5552 176.53 0)
+			(at 406.0952 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39232,7 +39377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 402.59 172.72 0)
+			(at 405.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39241,7 +39386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 402.59 172.72 0)
+			(at 405.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39256,6 +39401,12 @@
 			(uuid "134ab732-6bb5-46ac-9555-176b9282443d")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C307")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C307")
@@ -39419,7 +39570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2ec22c9-e74b-43fb-a520-4cd181377607")
-		(property "Reference" "C36"
+		(property "Reference" "C314"
 			(at 64.77 354.33 0)
 			(effects
 				(font
@@ -39473,7 +39624,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C36")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -39565,6 +39716,12 @@
 			(uuid "b792d176-bc2c-4f2f-8890-e2fe6897050a")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "U302")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "U302")
@@ -39653,7 +39810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ceb4ff-4a77-4bb2-a936-336794a221cd")
-		(property "Reference" "C70"
+		(property "Reference" "C317"
 			(at 218.44 332.74 0)
 			(effects
 				(font
@@ -39707,7 +39864,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C70")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -39849,6 +40006,12 @@
 			(uuid "b1eb097a-525c-4211-96bc-2d901b66c270")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R304")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R304")
@@ -39937,7 +40100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a846a60d-6b53-4451-a4e8-118b15bd4776")
-		(property "Reference" "R22"
+		(property "Reference" "R315"
 			(at 99.06 354.33 0)
 			(effects
 				(font
@@ -39991,7 +40154,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R22")
+					(reference "R315")
 					(unit 1)
 				)
 			)
@@ -40332,7 +40495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaf90808-5182-49a9-a641-358b2cb8d800")
-		(property "Reference" "J21"
+		(property "Reference" "J308"
 			(at 547.37 238.76 0)
 			(effects
 				(font
@@ -40398,7 +40561,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J21")
+					(reference "J308")
 					(unit 1)
 				)
 			)
@@ -40703,7 +40866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad85d804-6ed2-4ce0-8a7d-e40e10ed415f")
-		(property "Reference" "U14"
+		(property "Reference" "U307"
 			(at 528.32 314.96 0)
 			(effects
 				(font
@@ -40837,7 +41000,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "U14")
+					(reference "U307")
 					(unit 1)
 				)
 			)
@@ -41145,7 +41308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b14c9b40-b9d7-4495-abf8-75e92cf6410e")
-		(property "Reference" "C51"
+		(property "Reference" "C319"
 			(at 41.275 173.99 0)
 			(effects
 				(font
@@ -41199,7 +41362,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C51")
+					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -41342,6 +41505,12 @@
 			(uuid "d83a2dd3-4c70-42d1-b342-100bbe14f213")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R301")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R301")
@@ -41440,7 +41609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+F-3V3"
+		(property "Value" "+F3V3"
 			(at 30.48 358.14 0)
 			(effects
 				(font
@@ -41502,7 +41671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b485ce97-5069-4237-a6c5-666835479482")
-		(property "Reference" "SW12"
+		(property "Reference" "SW301"
 			(at 90.17 245.11 0)
 			(effects
 				(font
@@ -41554,7 +41723,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "SW12")
+					(reference "SW301")
 					(unit 1)
 				)
 			)
@@ -42125,6 +42294,12 @@
 			(uuid "e188bbff-b3d2-4401-9957-a442989cd509")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R322")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R322")
@@ -43021,7 +43196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8b8eff4-5d99-4449-a484-1a144ca82bb4")
-		(property "Reference" "R26"
+		(property "Reference" "R318"
 			(at 160.02 144.78 90)
 			(effects
 				(font
@@ -43073,7 +43248,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R26")
+					(reference "R318")
 					(unit 1)
 				)
 			)
@@ -43521,7 +43696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf9ab587-7458-496c-bcf3-e32eea1955a8")
-		(property "Reference" "U15"
+		(property "Reference" "U304"
 			(at 137.16 365.76 0)
 			(effects
 				(font
@@ -43617,7 +43792,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "U15")
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -43638,7 +43813,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "d0f4c5de-6768-43c9-9a25-a907276dd404")
-		(property "Reference" "C63"
+		(property "Reference" "C331"
 			(at 156.21 189.23 0)
 			(effects
 				(font
@@ -43692,7 +43867,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C63")
+					(reference "C331")
 					(unit 1)
 				)
 			)
@@ -43763,6 +43938,12 @@
 			(uuid "a070783e-de00-4c16-9c71-d45c516efd78")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R324")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R324")
@@ -44154,7 +44335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daed4af2-0b76-45ff-a6b5-7728c1ce1d00")
-		(property "Reference" "C56"
+		(property "Reference" "C324"
 			(at 148.59 173.863 0)
 			(effects
 				(font
@@ -44208,7 +44389,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C56")
+					(reference "C324")
 					(unit 1)
 				)
 			)
@@ -44442,7 +44623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de1b6db1-d928-42fc-9a32-7c02c3016c07")
-		(property "Reference" "J20"
+		(property "Reference" "J310"
 			(at 547.37 261.62 0)
 			(effects
 				(font
@@ -44505,7 +44686,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J20")
+					(reference "J310")
 					(unit 1)
 				)
 			)
@@ -44578,6 +44759,12 @@
 			(uuid "4d70e42c-89bf-400f-8756-c015d670969f")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C336")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C336")
@@ -44645,6 +44832,12 @@
 			(uuid "e60bf055-ee84-480c-904d-cdd7fcb3b861")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "R323")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R323")
@@ -44888,7 +45081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e464e9e9-fab4-4ee6-b220-68aa3c0df731")
-		(property "Reference" "R41"
+		(property "Reference" "R314"
 			(at 76.2 370.84 90)
 			(effects
 				(font
@@ -44940,7 +45133,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R41")
+					(reference "R314")
 					(unit 1)
 				)
 			)
@@ -45339,7 +45532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb374f84-4f6c-479b-9e93-4d8ba46429fb")
-		(property "Reference" "R33"
+		(property "Reference" "R320"
 			(at 261.62 144.78 90)
 			(effects
 				(font
@@ -45391,7 +45584,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R33")
+					(reference "R320")
 					(unit 1)
 				)
 			)
@@ -45485,6 +45678,12 @@
 			(uuid "da6a1504-58fb-4eea-accc-2a2eda817f7e")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "U310")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "U310")
@@ -45625,6 +45824,12 @@
 			(uuid "fcd264dc-276a-4433-b8fe-1879e5bc7dc9")
 		)
 		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "C303")
+					(unit 1)
+				)
+			)
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C303")
@@ -45796,7 +46001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edc93968-1b11-467c-b394-46da9be5279d")
-		(property "Reference" "U9"
+		(property "Reference" "U303"
 			(at 63.5 368.3 0)
 			(effects
 				(font
@@ -45886,7 +46091,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "U9")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -45978,7 +46183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efff21fe-1b3e-4b67-a932-ba53af2acd36")
-		(property "Reference" "C46"
+		(property "Reference" "C335"
 			(at 529.59 299.72 0)
 			(effects
 				(font
@@ -46032,7 +46237,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C46")
+					(reference "C335")
 					(unit 1)
 				)
 			)
@@ -46480,7 +46685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4c6d4f9-87ba-4c0d-a3e9-d989aced53a2")
-		(property "Reference" "C57"
+		(property "Reference" "C325"
 			(at 194.31 173.99 0)
 			(effects
 				(font
@@ -46534,7 +46739,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "C57")
+					(reference "C325")
 					(unit 1)
 				)
 			)
@@ -46839,7 +47044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f865b69f-37aa-4355-86b6-950de5a72f7d")
-		(property "Reference" "R40"
+		(property "Reference" "R309"
 			(at 40.64 387.35 90)
 			(effects
 				(font
@@ -46891,7 +47096,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R40")
+					(reference "R309")
 					(unit 1)
 				)
 			)
@@ -46913,7 +47118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8f51e1b-7a38-475f-b200-bf3f36891d48")
-		(property "Reference" "J31"
+		(property "Reference" "J311"
 			(at 248.92 365.76 0)
 			(effects
 				(font
@@ -46979,7 +47184,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "J31")
+					(reference "J311")
 					(unit 1)
 				)
 			)
@@ -47249,7 +47454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbd3b570-618b-46e5-84ac-2c5dd883e6ed")
-		(property "Reference" "DS1"
+		(property "Reference" "DS301"
 			(at 44.45 144.78 0)
 			(effects
 				(font
@@ -47336,7 +47541,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "DS1")
+					(reference "DS301")
 					(unit 1)
 				)
 			)
@@ -47357,7 +47562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbe10988-e643-42bc-85d3-df6178e8a78e")
-		(property "Reference" "U17"
+		(property "Reference" "U306"
 			(at 217.17 347.98 0)
 			(effects
 				(font
@@ -47490,7 +47695,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "U17")
+					(reference "U306")
 					(unit 1)
 				)
 			)
@@ -47582,7 +47787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc299e55-8f58-44d2-a9a5-835fd45deadd")
-		(property "Reference" "DS2"
+		(property "Reference" "DS302"
 			(at 95.25 144.78 0)
 			(effects
 				(font
@@ -47669,7 +47874,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "DS2")
+					(reference "DS302")
 					(unit 1)
 				)
 			)
@@ -47691,7 +47896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcd14153-2db7-4bbf-b6b0-ccde43c9823b")
-		(property "Reference" "R44"
+		(property "Reference" "R311"
 			(at 76.2 363.22 90)
 			(effects
 				(font
@@ -47743,7 +47948,7 @@
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "R44")
+					(reference "R311")
 					(unit 1)
 				)
 			)
