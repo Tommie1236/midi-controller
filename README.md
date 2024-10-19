@@ -1,6 +1,6 @@
 [![Build firmware](https://github.com/Tommie1236/midi-controller/actions/workflows/cmake-firmware.yml/badge.svg)](https://github.com/Tommie1236/midi-controller/actions/workflows/cmake-firmware.yml)
 [![Build fader-wing](https://github.com/Tommie1236/midi-controller/actions/workflows/cmake-fader-wing.yml/badge.svg)](https://github.com/Tommie1236/midi-controller/actions/workflows/cmake-fader-wing.yml)
-[![render drawio](https://github.com/Tommie1236/midi-controller/actions/workflows/render-drawio.yml/badge.svg)](https://github.com/Tommie1236/midi-controller/actions/workflows/render-drawio.yml)
+<!--[![render drawio](https://github.com/Tommie1236/midi-controller/actions/workflows/render-drawio.yml/badge.svg)](https://github.com/Tommie1236/midi-controller/actions/workflows/render-drawio.yml)-->
 
 ### huge thanks to the amazing [rp2040 skeleton project](https://github.com/daveythacher/RP2040_SKELETON). it helped immensly setting up this project. i probably couldn't have done it without
 
