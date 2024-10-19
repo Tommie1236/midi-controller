@@ -3,6 +3,9 @@ model/exports
 **.fcbak
 *.lck
 
+# kicad footprint cache
+**.fp-info-cache 
+
 # Prerequisites
 *.d
 
