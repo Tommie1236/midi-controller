@@ -4,7 +4,7 @@ model/exports
 *.lck
 
 # kicad footprint cache
-**.fp-info-cache 
+kicad/fp-info-cache
 
 # Prerequisites
 *.d
