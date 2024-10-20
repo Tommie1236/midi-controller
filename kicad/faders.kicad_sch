@@ -859,6 +859,180 @@
 				)
 			)
 		)
+		(symbol "Cherry_MX:Cherry_MX_RGB"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Cherry_MX_RGB"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Cherry_MX_RGB_0_1"
+				(rectangle
+					(start 5.715 -2.54)
+					(end -5.715 7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Cherry_MX_RGB_1_1"
+				(pin input line
+					(at -8.255 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.255 1.27 180)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.255 -1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.255 1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.255 6.35 180)
+					(length 2.54)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.255 3.81 180)
+					(length 2.54)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -7722,139 +7896,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+1V1"
 			(power)
 			(pin_numbers hide)
@@ -9106,7 +9147,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 248.92) (xy 199.39 248.92)
+			(xy 199.39 241.3) (xy 201.93 241.3)
 		)
 		(stroke
 			(width 0)
@@ -9246,7 +9287,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 48.26) (xy 250.19 48.26)
+			(xy 251.46 44.45) (xy 254 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9316,7 +9357,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 248.92) (xy 34.29 248.92)
+			(xy 49.53 243.84) (xy 46.99 243.84)
 		)
 		(stroke
 			(width 0)
@@ -9446,7 +9487,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 248.92) (xy 97.79 248.92)
+			(xy 151.13 63.5) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d262af1-b950-4baf-af25-a01de9c5ab36")
+	)
+	(wire
+		(pts
+			(xy 97.79 241.3) (xy 100.33 241.3)
 		)
 		(stroke
 			(width 0)
@@ -9516,7 +9567,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 67.31) (xy 199.39 67.31)
+			(xy 200.66 63.5) (xy 203.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9576,13 +9627,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 250.19) (xy 234.95 248.92)
+			(xy 251.46 60.96) (xy 252.73 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10ebecb0-2d05-474b-b55b-b3ac659c7a2f")
+		(uuid "11548e03-8148-445c-b19e-a2b3f52dd9f9")
 	)
 	(wire
 		(pts
@@ -9603,6 +9654,16 @@
 			(type default)
 		)
 		(uuid "116a151b-2225-49ae-abe3-65adb39cdbff")
+	)
+	(wire
+		(pts
+			(xy 49.53 44.45) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f50420-803a-46a8-84f5-76449b1de0a6")
 	)
 	(wire
 		(pts
@@ -9653,16 +9714,6 @@
 			(type default)
 		)
 		(uuid "132c214c-7db2-45d2-80da-cc8651678acd")
-	)
-	(wire
-		(pts
-			(xy 184.15 68.58) (xy 184.15 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1367c8d8-f256-4efb-9076-92d894c10c71")
 	)
 	(wire
 		(pts
@@ -9826,7 +9877,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 48.26) (xy 46.99 48.26)
+			(xy 48.26 41.91) (xy 50.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9843,6 +9894,16 @@
 			(type default)
 		)
 		(uuid "19a844ec-4423-40ac-954c-3d9283e98e75")
+	)
+	(wire
+		(pts
+			(xy 151.13 243.84) (xy 151.13 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fba065-f8a7-43cf-b583-da38d4727243")
 	)
 	(wire
 		(pts
@@ -10054,6 +10115,16 @@
 		)
 		(uuid "1eacc8c2-80d1-4750-a993-8b76915f3fe4")
 	)
+	(wire
+		(pts
+			(xy 100.33 243.84) (xy 100.33 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb7674c-962c-4d01-afde-281cf225fa49")
+	)
 	(polyline
 		(pts
 			(xy 533.4 260.35) (xy 538.48 260.35)
@@ -10103,6 +10174,16 @@
 			(type default)
 		)
 		(uuid "20f03c23-a5e6-4f0b-b5eb-8274723e80b8")
+	)
+	(wire
+		(pts
+			(xy 252.73 60.96) (xy 252.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211d6709-5c1e-4621-a32c-4ab5d039f37a")
 	)
 	(wire
 		(pts
@@ -10216,16 +10297,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 67.31) (xy 85.09 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d58622-fb35-4cbd-a0d9-f79da4f8134a")
-	)
-	(wire
-		(pts
 			(xy 158.75 87.63) (xy 158.75 91.44)
 		)
 		(stroke
@@ -10276,6 +10347,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 44.45) (xy 49.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ead73b-51b7-4b02-92f7-29caff50cddc")
+	)
+	(wire
+		(pts
 			(xy 320.04 45.72) (xy 325.12 45.72)
 		)
 		(stroke
@@ -10283,16 +10364,6 @@
 			(type default)
 		)
 		(uuid "282187f3-0c5f-4d2d-92a6-38df4cfd7fda")
-	)
-	(wire
-		(pts
-			(xy 234.95 68.58) (xy 234.95 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2831af22-2648-465e-b3ab-4ebdb2f51bf2")
 	)
 	(wire
 		(pts
@@ -10486,6 +10557,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 44.45) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0810dc-57a4-4a11-8c4b-f89ac7bd18ff")
+	)
+	(wire
+		(pts
 			(xy 199.39 351.79) (xy 201.93 351.79)
 		)
 		(stroke
@@ -10656,16 +10737,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 49.53) (xy 133.35 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b8d840-b090-480d-9dd2-45a506f5ac85")
-	)
-	(wire
-		(pts
 			(xy 102.235 186.69) (xy 103.505 186.69)
 		)
 		(stroke
@@ -10766,7 +10837,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 48.26) (xy 148.59 48.26)
+			(xy 149.86 41.91) (xy 152.4 41.91)
 		)
 		(stroke
 			(width 0)
@@ -11256,6 +11327,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 243.84) (xy 201.93 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46be6ecd-3671-4d6e-b97b-ceb77f4e9b3e")
+	)
+	(wire
+		(pts
 			(xy 25.4 306.07) (xy 27.94 306.07)
 		)
 		(stroke
@@ -11346,16 +11427,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 82.55 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4885d144-aed3-414f-a283-20a5c37267db")
-	)
-	(wire
-		(pts
 			(xy 99.06 372.11) (xy 99.06 374.65)
 		)
 		(stroke
@@ -11403,6 +11474,16 @@
 			(type default)
 		)
 		(uuid "4a68d8a3-541a-4992-81b0-2bc4d4c4ea41")
+	)
+	(wire
+		(pts
+			(xy 201.93 243.84) (xy 201.93 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6aae40-b21f-4701-8923-450d9d7953df")
 	)
 	(wire
 		(pts
@@ -11506,6 +11587,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 243.84) (xy 252.73 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6cf986-9df6-4cd6-a371-2254dc18453f")
+	)
+	(wire
+		(pts
 			(xy 521.97 24.13) (xy 521.97 22.86)
 		)
 		(stroke
@@ -11523,6 +11614,16 @@
 			(type default)
 		)
 		(uuid "4fa85081-e7c2-41ff-bb35-4ea679ee0908")
+	)
+	(wire
+		(pts
+			(xy 48.26 63.5) (xy 49.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50acbea2-ea93-4915-a51e-5d2f11876382")
 	)
 	(wire
 		(pts
@@ -11546,16 +11647,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 34.29 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5139f50e-c4b6-46b3-bbf8-fd37c2e9487f")
-	)
-	(wire
-		(pts
 			(xy 242.57 203.2) (xy 242.57 201.93)
 		)
 		(stroke
@@ -11566,7 +11657,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 248.92) (xy 46.99 248.92)
+			(xy 46.99 241.3) (xy 49.53 241.3)
 		)
 		(stroke
 			(width 0)
@@ -11676,16 +11767,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 133.35 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54b5d085-f4c7-4da4-81a7-a161abadcbaf")
-	)
-	(wire
-		(pts
 			(xy 30.48 229.87) (xy 29.21 229.87)
 		)
 		(stroke
@@ -11776,13 +11857,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 248.92) (xy 186.69 248.92)
+			(xy 200.66 41.91) (xy 201.93 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5600134d-c3c0-4e35-be15-b47387b27bce")
+		(uuid "56118f9b-e836-4d2b-b70e-03f494b4613e")
 	)
 	(wire
 		(pts
@@ -11996,16 +12077,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 250.19) (xy 133.35 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59b867b0-c883-4f9b-9549-eac991b62bb3")
-	)
-	(wire
-		(pts
 			(xy 242.57 171.45) (xy 242.57 184.15)
 		)
 		(stroke
@@ -12033,16 +12104,6 @@
 			(type default)
 		)
 		(uuid "5a2fc583-22d0-4d06-9dc9-55886b041698")
-	)
-	(wire
-		(pts
-			(xy 234.95 48.26) (xy 237.49 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3148f5-415d-4cfc-a95a-da808869ed65")
 	)
 	(wire
 		(pts
@@ -12096,16 +12157,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 67.31) (xy 237.49 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb5804e-6609-4efa-86a7-1c00daed3baf")
-	)
-	(wire
-		(pts
 			(xy 146.05 359.41) (xy 146.05 360.68)
 		)
 		(stroke
@@ -12116,7 +12167,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 48.26) (xy 97.79 48.26)
+			(xy 99.06 44.45) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -12326,6 +12377,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 243.84) (xy 100.33 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d48e65-2d53-44f2-af0d-0eebb19dd7bc")
+	)
+	(wire
+		(pts
 			(xy 407.67 250.19) (xy 410.21 250.19)
 		)
 		(stroke
@@ -12486,16 +12547,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 48.26) (xy 135.89 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67bb141f-7f66-4a1a-a982-fb522d46b908")
-	)
-	(wire
-		(pts
 			(xy 251.46 229.87) (xy 254 229.87)
 		)
 		(stroke
@@ -12543,6 +12594,16 @@
 			(type default)
 		)
 		(uuid "68c712b5-abde-497a-85d0-ef3fcf0f4cf4")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699c0acf-d117-4a90-b92e-264316c2e60c")
 	)
 	(wire
 		(pts
@@ -12883,16 +12944,6 @@
 			(type default)
 		)
 		(uuid "72f142f9-f11f-4c4c-a1a7-7c02d816c7e5")
-	)
-	(wire
-		(pts
-			(xy 133.35 67.31) (xy 135.89 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7373a886-d138-4c1b-a617-4730294bc83e")
 	)
 	(wire
 		(pts
@@ -13246,6 +13297,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 44.45) (xy 151.13 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5b11cc-75c2-41cc-9b95-c8a3c8dda230")
+	)
+	(wire
+		(pts
 			(xy 501.65 336.55) (xy 502.92 336.55)
 		)
 		(stroke
@@ -13276,7 +13337,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 67.31) (xy 97.79 67.31)
+			(xy 99.06 63.5) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -13356,6 +13417,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 243.84) (xy 252.73 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f74d3b0-de43-40c2-851c-5640412a2bdb")
+	)
+	(wire
+		(pts
 			(xy 97.155 180.34) (xy 97.155 181.737)
 		)
 		(stroke
@@ -13393,6 +13464,16 @@
 			(type default)
 		)
 		(uuid "81872fff-34b0-43a0-9bbb-cf51bf85de76")
+	)
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a59daf-fb9e-4f88-9e06-20e378efaa5f")
 	)
 	(wire
 		(pts
@@ -13496,6 +13577,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 41.91) (xy 252.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8435e7cd-b8e7-467c-96f5-5dd3fd7337ad")
+	)
+	(wire
+		(pts
 			(xy 567.69 256.54) (xy 567.69 257.81)
 		)
 		(stroke
@@ -13513,6 +13604,16 @@
 			(type default)
 		)
 		(uuid "849c5388-8ab0-4b30-8a4b-af9e5c671144")
+	)
+	(wire
+		(pts
+			(xy 149.86 63.5) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a6ba0b-c3dd-4894-aa4e-15ba624ced8a")
 	)
 	(wire
 		(pts
@@ -14026,16 +14127,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 250.19) (xy 82.55 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93db8c6c-6f46-46fd-bb97-666ec4a5f4cc")
-	)
-	(wire
-		(pts
 			(xy 448.31 107.95) (xy 433.07 107.95)
 		)
 		(stroke
@@ -14214,6 +14305,16 @@
 		)
 		(uuid "9c292be0-679f-4303-b16a-a68942b7281b")
 	)
+	(wire
+		(pts
+			(xy 200.66 60.96) (xy 201.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c51b46f-a999-4a10-b1f9-445c5906f642")
+	)
 	(polyline
 		(pts
 			(xy 257.81 359.41) (xy 262.89 359.41)
@@ -14263,16 +14364,6 @@
 			(type default)
 		)
 		(uuid "9d235341-e8d9-438c-b30f-773f0a79508a")
-	)
-	(wire
-		(pts
-			(xy 133.35 248.92) (xy 135.89 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2e8cf1-5b8f-4051-b50d-41c826d871cf")
 	)
 	(polyline
 		(pts
@@ -14353,16 +14444,6 @@
 			(type default)
 		)
 		(uuid "9e1510bd-39d5-4954-8974-e272457d8f5e")
-	)
-	(wire
-		(pts
-			(xy 82.55 49.53) (xy 82.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e31b0c7-0f43-450c-9caf-320b0d5751c9")
 	)
 	(wire
 		(pts
@@ -14556,6 +14637,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 41.91) (xy 100.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd35e5-c793-4d97-8575-adc739595d05")
+	)
+	(wire
+		(pts
 			(xy 355.6 195.58) (xy 355.6 199.39)
 		)
 		(stroke
@@ -14586,7 +14677,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 148.59 67.31)
+			(xy 149.86 60.96) (xy 152.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -14766,16 +14857,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 248.92) (xy 237.49 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9747395-26f4-4c3e-a3d5-391b472fed61")
-	)
-	(wire
-		(pts
 			(xy 161.29 147.32) (xy 162.56 147.32)
 		)
 		(stroke
@@ -14906,7 +14987,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 67.31) (xy 46.99 67.31)
+			(xy 48.26 60.96) (xy 50.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -14963,16 +15044,6 @@
 			(type default)
 		)
 		(uuid "ae330165-98bc-4eb3-9c1b-e11b71a35193")
-	)
-	(wire
-		(pts
-			(xy 31.75 48.26) (xy 34.29 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae44ba7c-a5b1-403c-a37d-c508a0eafff4")
 	)
 	(wire
 		(pts
@@ -15056,16 +15127,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 250.19) (xy 184.15 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b162765f-5abe-4561-9b5d-8c7136ee49a9")
-	)
-	(wire
-		(pts
 			(xy 29.21 24.13) (xy 31.75 24.13)
 		)
 		(stroke
@@ -15073,16 +15134,6 @@
 			(type default)
 		)
 		(uuid "b18a6e2c-3c02-4beb-867b-7854f0278876")
-	)
-	(wire
-		(pts
-			(xy 82.55 248.92) (xy 85.09 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1adddb5-df8b-4ac2-b211-eebf5b3a5e21")
 	)
 	(wire
 		(pts
@@ -15163,16 +15214,6 @@
 			(type default)
 		)
 		(uuid "b6661886-8b3a-4728-92dd-b0b9dd8bcb8e")
-	)
-	(wire
-		(pts
-			(xy 184.15 49.53) (xy 184.15 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66bb9f1-6eef-49e3-b60d-5a3cdb71fdd2")
 	)
 	(wire
 		(pts
@@ -15456,16 +15497,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 48.26) (xy 186.69 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be410ee2-afce-4694-a758-b92001278182")
-	)
-	(wire
-		(pts
 			(xy 48.895 191.77) (xy 50.165 191.77)
 		)
 		(stroke
@@ -15486,7 +15517,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 248.92) (xy 148.59 248.92)
+			(xy 148.59 241.3) (xy 151.13 241.3)
 		)
 		(stroke
 			(width 0)
@@ -15643,6 +15674,16 @@
 			(type default)
 		)
 		(uuid "c3c7dc77-4e1b-4a8a-b010-0ae87b7feeb9")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 201.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d73097-e5c8-4af7-9f58-7a2779e250c6")
 	)
 	(wire
 		(pts
@@ -15876,6 +15917,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 41.91) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6e0787-c708-4c1f-a378-236821dea200")
+	)
+	(wire
+		(pts
 			(xy 45.72 313.69) (xy 48.26 313.69)
 		)
 		(stroke
@@ -15953,6 +16004,16 @@
 			(type default)
 		)
 		(uuid "cbefe343-743b-45f9-a34d-47fb13d6618d")
+	)
+	(wire
+		(pts
+			(xy 252.73 41.91) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0e02d1-17d0-4bba-8626-abc3d1dab3b5")
 	)
 	(wire
 		(pts
@@ -16066,6 +16127,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 63.5) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdbf004-3b1d-48a0-bc78-960b34ade4c7")
+	)
+	(wire
+		(pts
 			(xy 254 189.23) (xy 252.73 189.23)
 		)
 		(stroke
@@ -16146,7 +16217,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 67.31) (xy 250.19 67.31)
+			(xy 251.46 63.5) (xy 254 63.5)
 		)
 		(stroke
 			(width 0)
@@ -16193,16 +16264,6 @@
 			(type default)
 		)
 		(uuid "d356f06c-278a-4c92-a51f-f1f6f7e6d662")
-	)
-	(wire
-		(pts
-			(xy 82.55 48.26) (xy 85.09 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d36fb815-2861-48c8-b1e3-f93ad8b9ea13")
 	)
 	(wire
 		(pts
@@ -16356,7 +16417,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 48.26) (xy 199.39 48.26)
+			(xy 200.66 44.45) (xy 203.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -16393,16 +16454,6 @@
 			(type default)
 		)
 		(uuid "d68b6a5a-9359-42fb-a1b9-907a90f07271")
-	)
-	(wire
-		(pts
-			(xy 31.75 49.53) (xy 31.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6ba9dce-4f38-4ca2-a02c-4dc869187949")
 	)
 	(wire
 		(pts
@@ -17066,7 +17117,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 248.92) (xy 250.19 248.92)
+			(xy 250.19 241.3) (xy 252.73 241.3)
 		)
 		(stroke
 			(width 0)
@@ -17213,6 +17264,16 @@
 			(type default)
 		)
 		(uuid "eab1f24e-fccb-4ab0-bd93-31dcef54b11d")
+	)
+	(wire
+		(pts
+			(xy 100.33 60.96) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6dd6ea-6ad3-4f1e-a431-640fc31715bc")
 	)
 	(wire
 		(pts
@@ -17406,6 +17467,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 243.84) (xy 151.13 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13310aa-dec2-4fda-a8c1-8800f9f6e3eb")
+	)
+	(wire
+		(pts
 			(xy 123.19 26.67) (xy 123.19 31.75)
 		)
 		(stroke
@@ -17523,16 +17594,6 @@
 			(type default)
 		)
 		(uuid "f2db6f94-b456-492c-ad69-3a40ccc0ccf5")
-	)
-	(wire
-		(pts
-			(xy 234.95 49.53) (xy 234.95 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ed7344-7a51-434e-a0e8-0e5e3cbb9486")
 	)
 	(wire
 		(pts
@@ -17726,16 +17787,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 67.31) (xy 186.69 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e3c273-866f-4f32-80cb-d8bb516de421")
-	)
-	(wire
-		(pts
 			(xy 92.075 181.737) (xy 97.155 181.737)
 		)
 		(stroke
@@ -17796,7 +17847,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 250.19) (xy 31.75 248.92)
+			(xy 49.53 250.19) (xy 49.53 243.84)
 		)
 		(stroke
 			(width 0)
@@ -17983,16 +18034,6 @@
 			(type default)
 		)
 		(uuid "ff738257-2462-4b2e-bfa1-6cdba70c4676")
-	)
-	(wire
-		(pts
-			(xy 31.75 68.58) (xy 31.75 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffab6198-b08b-4544-abd8-a4b3d2bac3eb")
 	)
 	(wire
 		(pts
@@ -18707,7 +18748,7 @@
 	)
 	(global_label "B08"
 		(shape input)
-		(at 199.39 48.26 0)
+		(at 203.2 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18717,7 +18758,7 @@
 		)
 		(uuid "070c8aa6-2316-4680-86aa-d1d6153b350a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.0642 48.26 0)
+			(at 209.8742 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18751,7 +18792,7 @@
 	)
 	(global_label "B02"
 		(shape input)
-		(at 148.59 248.92 0)
+		(at 151.13 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18761,7 +18802,7 @@
 		)
 		(uuid "0952df96-ad4b-4934-8a40-3f1470561439")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.2642 248.92 0)
+			(at 157.8042 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19301,7 +19342,7 @@
 	)
 	(global_label "B09"
 		(shape input)
-		(at 250.19 48.26 0)
+		(at 254 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19311,7 +19352,7 @@
 		)
 		(uuid "1adf815e-225e-45a1-83f6-506c4caae9ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8642 48.26 0)
+			(at 260.6742 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20093,7 +20134,7 @@
 	)
 	(global_label "B06"
 		(shape input)
-		(at 97.79 48.26 0)
+		(at 101.6 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20103,7 +20144,7 @@
 		)
 		(uuid "3d27c954-2714-4f26-8ae6-20b7c060c9f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4642 48.26 0)
+			(at 108.2742 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20115,7 +20156,7 @@
 	)
 	(global_label "B03"
 		(shape input)
-		(at 199.39 248.92 0)
+		(at 201.93 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20125,7 +20166,7 @@
 		)
 		(uuid "3f911e5b-71d1-497a-97c9-050ad42cbfb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.0642 248.92 0)
+			(at 208.6042 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20181,7 +20222,7 @@
 	)
 	(global_label "B13"
 		(shape input)
-		(at 199.39 67.31 0)
+		(at 203.2 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20191,7 +20232,7 @@
 		)
 		(uuid "41a65d4b-b6c1-4b3b-8fdd-0811aaeb1887")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.0642 67.31 0)
+			(at 209.8742 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20422,7 +20463,7 @@
 	)
 	(global_label "B11"
 		(shape input)
-		(at 97.79 67.31 0)
+		(at 101.6 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20432,7 +20473,7 @@
 		)
 		(uuid "46d58e0d-b95f-4b86-8fcb-1ce4cbae814d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4642 67.31 0)
+			(at 108.2742 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20620,7 +20661,7 @@
 	)
 	(global_label "B04"
 		(shape input)
-		(at 250.19 248.92 0)
+		(at 252.73 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20630,7 +20671,7 @@
 		)
 		(uuid "4f637bbf-0b6a-4ab3-9bab-8583c8798c9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8642 248.92 0)
+			(at 259.4042 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20950,7 +20991,7 @@
 	)
 	(global_label "B05"
 		(shape input)
-		(at 46.99 48.26 0)
+		(at 50.8 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20960,7 +21001,7 @@
 		)
 		(uuid "5d9f160d-4beb-43e2-9c78-77c01af1002b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6642 48.26 0)
+			(at 57.4742 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22402,7 +22443,7 @@
 	)
 	(global_label "B01"
 		(shape input)
-		(at 97.79 248.92 0)
+		(at 100.33 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22412,7 +22453,7 @@
 		)
 		(uuid "937eadf8-2ea0-47d1-b8d8-0e87e9d5bd04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4642 248.92 0)
+			(at 107.0042 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +23322,7 @@
 	)
 	(global_label "B00"
 		(shape input)
-		(at 46.99 248.92 0)
+		(at 49.53 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23291,7 +23332,7 @@
 		)
 		(uuid "ae27f70d-a596-4c20-bf32-1c5246884601")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6642 248.92 0)
+			(at 56.2042 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23347,7 +23388,7 @@
 	)
 	(global_label "B07"
 		(shape input)
-		(at 148.59 48.26 0)
+		(at 152.4 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23357,7 +23398,7 @@
 		)
 		(uuid "b363289a-298a-411a-923c-19f7f0e89369")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.2642 48.26 0)
+			(at 159.0742 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24029,7 +24070,7 @@
 	)
 	(global_label "B14"
 		(shape input)
-		(at 250.19 67.31 0)
+		(at 254 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24039,7 +24080,7 @@
 		)
 		(uuid "c4668559-bdaf-4ac1-9296-ce6f95b9425b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.8642 67.31 0)
+			(at 260.6742 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24775,7 +24816,7 @@
 	)
 	(global_label "B10"
 		(shape input)
-		(at 46.99 67.31 0)
+		(at 50.8 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24785,7 +24826,7 @@
 		)
 		(uuid "df42510e-08b9-4a2c-8165-7d841f0ec8d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6642 67.31 0)
+			(at 57.4742 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24885,7 +24926,7 @@
 	)
 	(global_label "B12"
 		(shape input)
-		(at 148.59 67.31 0)
+		(at 152.4 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24895,7 +24936,7 @@
 		)
 		(uuid "e449db12-b467-4936-b58c-70ba3153880f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.2642 67.31 0)
+			(at 159.0742 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26350,6 +26391,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 100.33 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f8dda7a-adb4-49bb-8be2-caf8eba7337b")
+		(property "Reference" "#PWR05010"
+			(at 100.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c60a4b-cfbc-43a1-bb08-2dcdf8b9907f")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 218.44 341.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26637,8 +26744,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 140.97 248.92 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 140.335 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26646,7 +26753,7 @@
 		(dnp no)
 		(uuid "11d6ae6d-b830-4493-af24-0f57448dabb0")
 		(property "Reference" "SW302"
-			(at 140.97 245.11 0)
+			(at 140.335 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26654,15 +26761,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 140.97 252.73 0)
+			(at 140.335 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 140.97 248.92 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 140.335 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26670,8 +26777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 140.97 248.92 0)
+		(property "Datasheet" ""
+			(at 140.335 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26680,7 +26787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 248.92 0)
+			(at 140.335 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26693,6 +26800,18 @@
 		)
 		(pin "2"
 			(uuid "e05b2d02-4836-4a8e-8131-f75d658feb01")
+		)
+		(pin "5"
+			(uuid "110d2bd0-5087-46de-9265-c5e92196c3e9")
+		)
+		(pin "4"
+			(uuid "e9d6630b-0ede-4e16-b820-ccb38399b19f")
+		)
+		(pin "3"
+			(uuid "f7f601fc-16d9-46c4-8f04-84017b57a745")
+		)
+		(pin "6"
+			(uuid "3b1de85c-91e0-40e0-8629-2bc540a1706c")
 		)
 		(instances
 			(project "faders"
@@ -26785,8 +26904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 242.57 248.92 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 241.935 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26794,7 +26913,7 @@
 		(dnp no)
 		(uuid "12371ec7-ae4a-4fca-9798-c7943fd06fb7")
 		(property "Reference" "SW304"
-			(at 242.57 245.11 0)
+			(at 241.935 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26802,15 +26921,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 242.57 252.73 0)
+			(at 241.935 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 242.57 248.92 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 241.935 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26818,8 +26937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 242.57 248.92 0)
+		(property "Datasheet" ""
+			(at 241.935 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26828,7 +26947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 248.92 0)
+			(at 241.935 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26841,6 +26960,18 @@
 		)
 		(pin "2"
 			(uuid "96ceb2d0-103e-4aea-a042-a337bd759672")
+		)
+		(pin "4"
+			(uuid "df1d580b-a012-469e-92f9-281f4dd12846")
+		)
+		(pin "3"
+			(uuid "0aa48352-d675-4bb5-bdfb-fc34c195ec1b")
+		)
+		(pin "5"
+			(uuid "b534b544-b1c1-4279-aa30-61406cf3c1d6")
+		)
+		(pin "6"
+			(uuid "3f794d14-8064-43c7-8bc8-c2038f849cb4")
 		)
 		(instances
 			(project "faders"
@@ -26933,8 +27064,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 191.77 248.92 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 191.135 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26942,7 +27073,7 @@
 		(dnp no)
 		(uuid "13c69abd-d3f9-4622-8900-7a8badae58fd")
 		(property "Reference" "SW303"
-			(at 191.77 245.11 0)
+			(at 191.135 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26950,15 +27081,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 191.77 252.73 0)
+			(at 191.135 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 191.77 248.92 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 191.135 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26966,8 +27097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 248.92 0)
+		(property "Datasheet" ""
+			(at 191.135 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26976,7 +27107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 248.92 0)
+			(at 191.135 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26989,6 +27120,18 @@
 		)
 		(pin "2"
 			(uuid "a0d187f8-0309-4fe1-b440-2c9b9b3cf24b")
+		)
+		(pin "5"
+			(uuid "050f807a-8437-45ec-ab97-0d27eebb8966")
+		)
+		(pin "6"
+			(uuid "9c8dea3e-dd7f-431e-86bb-61599c96f7fb")
+		)
+		(pin "4"
+			(uuid "7d3bf28e-83c7-462d-b70d-16663ac3ab21")
+		)
+		(pin "3"
+			(uuid "dd3ec2f2-d282-4c76-9b8b-7d2dd6e91e92")
 		)
 		(instances
 			(project "faders"
@@ -27416,6 +27559,71 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a36a606-5fad-47a4-a0c1-3f5c895beee8")
+		(property "Reference" "#PWR05004"
+			(at 252.73 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BGND"
+			(at 252.73 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "836ce5f1-1b77-4424-a3c7-dce65979a24c")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05004")
 					(unit 1)
 				)
 			)
@@ -27880,9 +28088,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 242.57 67.31 0)
-		(mirror y)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 243.205 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27890,7 +28097,7 @@
 		(dnp no)
 		(uuid "1e60f317-2cfa-4809-bd2e-867b91b8eecc")
 		(property "Reference" "SW419"
-			(at 242.57 63.5 0)
+			(at 243.078 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27898,15 +28105,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 242.57 71.12 0)
+			(at 243.205 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 242.57 67.31 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 243.205 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27914,8 +28121,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 242.57 67.31 0)
+		(property "Datasheet" ""
+			(at 243.205 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27924,7 +28131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 67.31 0)
+			(at 243.205 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27937,6 +28144,18 @@
 		)
 		(pin "2"
 			(uuid "9ac09db8-9edd-4d30-ad44-61421c3dace6")
+		)
+		(pin "3"
+			(uuid "7e3aaaef-1485-4f51-8922-5a0bdff3b36d")
+		)
+		(pin "4"
+			(uuid "c9e12ac0-96bb-467c-8aef-c73ba8909eda")
+		)
+		(pin "6"
+			(uuid "45a13a24-7438-460e-a3e2-03a6e742a0cf")
+		)
+		(pin "5"
+			(uuid "43b4e686-97df-4274-9d48-e68881db1db5")
 		)
 		(instances
 			(project "faders"
@@ -28256,8 +28475,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 140.97 48.26 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 141.605 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28265,7 +28484,7 @@
 		(dnp no)
 		(uuid "22e5c291-2a4d-42b8-bcd5-ab5f87b5f82b")
 		(property "Reference" "SW412"
-			(at 140.97 44.45 0)
+			(at 141.478 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28273,15 +28492,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 140.97 52.07 0)
+			(at 141.605 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 140.97 48.26 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 141.605 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28289,8 +28508,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 140.97 48.26 0)
+		(property "Datasheet" ""
+			(at 141.605 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28299,7 +28518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 48.26 0)
+			(at 141.605 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28312,6 +28531,18 @@
 		)
 		(pin "2"
 			(uuid "68ca2028-a536-4acf-b1eb-36b05ca616e2")
+		)
+		(pin "3"
+			(uuid "273565be-ded7-40e3-bb9d-4dc7b6671e98")
+		)
+		(pin "5"
+			(uuid "ec3d461d-446f-4bcc-9797-a7f14c9b8e7a")
+		)
+		(pin "6"
+			(uuid "57b3d0b6-eb39-4552-ac20-bbba086e0c44")
+		)
+		(pin "4"
+			(uuid "73039c2d-1b3f-4db3-b95a-638a5598b2dc")
 		)
 		(instances
 			(project "faders"
@@ -28910,6 +29141,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 252.73 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c73493f-9e2b-417b-954f-e341df844dcc")
+		(property "Reference" "#PWR05013"
+			(at 252.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2477863e-53ec-4b46-8847-2ace901713f2")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cdce5c2-8ce6-45db-ac63-2113fe4431aa")
+		(property "Reference" "#PWR05006"
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8223cad6-0a35-4115-93ca-02fa0e7f6c37")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 191.77 26.67 0)
 		(unit 1)
@@ -29078,77 +29441,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ebe77e6-6411-4897-9381-672b85ab7be0")
-		(property "Reference" "#PWR095"
-			(at 234.95 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 234.95 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf7f7d35-bfc0-4eda-b971-5c162145e30a")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0191")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 232.41 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29213,77 +29505,6 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "#PWR0286")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "317200ff-2d3e-4938-bb6b-11b5dea627cc")
-		(property "Reference" "#PWR089"
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 82.55 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddb249f3-5203-49b3-89c8-7b36c778bbc9")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -29508,9 +29729,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 242.57 48.26 0)
-		(mirror y)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 243.205 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29518,7 +29738,7 @@
 		(dnp no)
 		(uuid "3614f20a-92b2-4385-bf5f-b8ca1b29a371")
 		(property "Reference" "SW414"
-			(at 242.57 44.45 0)
+			(at 243.078 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29526,15 +29746,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 242.57 52.07 0)
+			(at 243.205 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 242.57 48.26 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 243.205 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29542,8 +29762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 242.57 48.26 0)
+		(property "Datasheet" ""
+			(at 243.205 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29552,7 +29772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 48.26 0)
+			(at 243.205 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29565,6 +29785,18 @@
 		)
 		(pin "2"
 			(uuid "b896a031-d2c6-41f4-8753-da2d7f9ef73a")
+		)
+		(pin "5"
+			(uuid "9625bc95-855b-416b-9b6e-d712e308093b")
+		)
+		(pin "4"
+			(uuid "0daf81ad-7673-4fb7-89c4-c410418a39b2")
+		)
+		(pin "3"
+			(uuid "357fb4d2-0251-4412-9488-e0f53b7f0c56")
+		)
+		(pin "6"
+			(uuid "0108eef7-1391-4d24-b317-795f3cd37a3e")
 		)
 		(instances
 			(project "faders"
@@ -30837,7 +31069,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 250.19 0)
+		(at 49.53 250.19 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30845,7 +31078,7 @@
 		(dnp no)
 		(uuid "40325046-9317-426c-957c-188300265ba7")
 		(property "Reference" "#PWR021"
-			(at 31.75 256.54 0)
+			(at 49.53 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30854,7 +31087,7 @@
 			)
 		)
 		(property "Value" "BGND"
-			(at 31.75 254 0)
+			(at 49.53 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30862,7 +31095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 250.19 0)
+			(at 49.53 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30871,7 +31104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 250.19 0)
+			(at 49.53 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30880,7 +31113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 250.19 0)
+			(at 49.53 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31605,77 +31838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e1acba8-bbfa-4ade-80dc-59754545faf5")
-		(property "Reference" "#PWR087"
-			(at 31.75 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 31.75 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cb321fe-21bf-4e09-9a3c-0a6099e47afa")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0297")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 457.2 46.99 0)
 		(unit 1)
@@ -31741,77 +31903,6 @@
 			(project ""
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "#PWR0213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51ec3fcc-2c3c-4333-8a7c-c03c38f2d481")
-		(property "Reference" "#PWR094"
-			(at 234.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 234.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08ba3ae8-aebd-4b21-8257-e88880665fce")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -32647,6 +32738,72 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ca6f6b5-2a90-4a4e-a376-34b6e50f90b7")
+		(property "Reference" "#PWR05005"
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ff55bcd-2d94-4a81-85b6-798f90a6615f")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05005")
 					(unit 1)
 				)
 			)
@@ -34611,6 +34768,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bc488f3-740a-4622-a5b4-bd10be56bd02")
+		(property "Reference" "#PWR05009"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5eca68b-40a3-4519-a610-c2c7d5a361d5")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 336.55 245.11 90)
 		(unit 1)
@@ -34749,6 +34972,72 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "#PWR0253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "700658fe-228d-460b-8dbf-e14a69b1deb5")
+		(property "Reference" "#PWR05008"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aa06952-f494-45d4-a19b-5bc9117bec38")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05008")
 					(unit 1)
 				)
 			)
@@ -35214,9 +35503,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 191.77 67.31 0)
-		(mirror y)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 192.405 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35224,7 +35512,7 @@
 		(dnp no)
 		(uuid "77a16b6b-91c8-4a50-a4eb-947d64447e3d")
 		(property "Reference" "SW418"
-			(at 191.77 63.5 0)
+			(at 192.278 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35232,15 +35520,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 191.77 71.12 0)
+			(at 192.405 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 191.77 67.31 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 192.405 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35248,8 +35536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 67.31 0)
+		(property "Datasheet" ""
+			(at 192.405 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35258,7 +35546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 67.31 0)
+			(at 192.405 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35271,6 +35559,18 @@
 		)
 		(pin "2"
 			(uuid "828c382c-5e76-4691-8be6-c325e01b99c4")
+		)
+		(pin "5"
+			(uuid "d7e619b8-aed4-4597-970d-9f53e6aaa34e")
+		)
+		(pin "6"
+			(uuid "280e977d-85f5-43ae-ab62-c91b48c9526d")
+		)
+		(pin "4"
+			(uuid "f634295e-509f-4bba-b8b5-86a3118747d6")
+		)
+		(pin "3"
+			(uuid "87cb3d75-ddf7-4c24-9b4f-feb9fab4c49b")
 		)
 		(instances
 			(project "faders"
@@ -35288,32 +35588,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 39.37 248.92 0)
+		(lib_id "power:GND")
+		(at 201.93 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "78947588-9052-423c-bfd9-ca9f6987c55a")
-		(property "Reference" "SW300"
-			(at 39.37 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 39.37 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 39.37 248.92 0)
+		(uuid "78390dd9-9f32-4917-90e6-0f727af92c8b")
+		(property "Reference" "#PWR05012"
+			(at 201.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35321,8 +35606,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 39.37 248.92 0)
+		(property "Value" "EGND"
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35331,7 +35633,71 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 248.92 0)
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8fbe123-5881-4b9f-b8ea-ea686f4a7433")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 38.735 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78947588-9052-423c-bfd9-ca9f6987c55a")
+		(property "Reference" "SW300"
+			(at 38.735 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 38.735 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 38.735 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.735 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.735 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35345,6 +35711,18 @@
 		(pin "2"
 			(uuid "322dd4cf-d10e-4ee0-9749-65525e803870")
 		)
+		(pin "4"
+			(uuid "7b84f75d-cefe-4d9a-96ef-4d0c730b5efa")
+		)
+		(pin "6"
+			(uuid "b2cbb66b-b9ef-4485-8e27-508f289e732c")
+		)
+		(pin "5"
+			(uuid "c22c0591-40e2-43aa-b7ba-e970673dd873")
+		)
+		(pin "3"
+			(uuid "495a9c13-1ccf-48fa-91b5-4d50a2131088")
+		)
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
@@ -35355,6 +35733,72 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "SW300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "797fb819-2bdf-4b45-a6a6-9bc076a53a47")
+		(property "Reference" "#PWR05007"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44acb1c4-e2fa-4a1a-ae98-7f00166a457d")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05007")
 					(unit 1)
 				)
 			)
@@ -35598,7 +36042,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 250.19 0)
+		(at 100.33 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35606,7 +36050,7 @@
 		(dnp no)
 		(uuid "7a6b2291-e8ff-4c06-b070-6a93dd8b03e2")
 		(property "Reference" "#PWR020"
-			(at 82.55 256.54 0)
+			(at 100.33 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35615,7 +36059,7 @@
 			)
 		)
 		(property "Value" "BGND"
-			(at 82.55 254 0)
+			(at 100.33 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35623,7 +36067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 250.19 0)
+			(at 100.33 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35632,7 +36076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 250.19 0)
+			(at 100.33 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35641,7 +36085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 250.19 0)
+			(at 100.33 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36777,6 +37221,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 201.93 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "853faf36-eb65-441a-8a67-1787f7737bf6")
+		(property "Reference" "#PWR05003"
+			(at 201.93 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BGND"
+			(at 201.93 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "079fb43d-ab46-4601-b1c4-f293053f83ba")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 39.37 26.67 0)
 		(unit 1)
@@ -37301,77 +37810,6 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "R306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88f1869d-b6e7-48b0-84f9-be48340ead03")
-		(property "Reference" "#PWR088"
-			(at 82.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 82.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0febbdaa-184a-4d59-9f5c-d93fb7d0d8a0")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -38022,8 +38460,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 39.37 48.26 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 40.005 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38031,7 +38469,7 @@
 		(dnp no)
 		(uuid "8f6fd6cc-7a15-4d7d-b1ab-6bb86178a873")
 		(property "Reference" "SW410"
-			(at 39.37 44.45 0)
+			(at 40.513 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38039,15 +38477,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 39.37 52.07 0)
+			(at 40.005 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 39.37 48.26 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 40.005 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38055,8 +38493,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 39.37 48.26 0)
+		(property "Datasheet" ""
+			(at 40.005 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38065,7 +38503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 48.26 0)
+			(at 40.005 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38078,6 +38516,18 @@
 		)
 		(pin "2"
 			(uuid "950a880d-64b1-4095-adb6-edf4cd752be9")
+		)
+		(pin "4"
+			(uuid "51e3b658-dd86-49eb-af1e-5ca40ff8ca46")
+		)
+		(pin "5"
+			(uuid "412f6752-abbc-4666-9dfd-c797a5882bff")
+		)
+		(pin "6"
+			(uuid "68ae98c0-d8cc-4b1d-8bb1-c8e69bc16d3a")
+		)
+		(pin "3"
+			(uuid "236b74b6-ed55-42d7-bdb4-393d666ffc9b")
 		)
 		(instances
 			(project "faders"
@@ -38530,77 +38980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9546a6ad-adab-4337-abe7-751cb5ff7ad9")
-		(property "Reference" "#PWR012"
-			(at 234.95 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BGND"
-			(at 234.95 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dad991c-7298-4bc0-819a-32399e41ffe4")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0282")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 325.12 215.9 90)
 		(unit 1)
@@ -38961,77 +39340,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a536dbc-eb92-494c-a1dd-623fcc3d3619")
-		(property "Reference" "#PWR076"
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 31.75 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cb58d55-023a-4cf0-b209-1c1ef3acf4c7")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0294")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 147.32 90)
 		(unit 1)
@@ -39241,6 +39549,71 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "#PWR0239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c3318ff-f9d6-4b65-ad3d-ad5936eb86e0")
+		(property "Reference" "#PWR05002"
+			(at 151.13 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "BGND"
+			(at 151.13 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5d00bac-ec68-46f7-9554-f306c28af691")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05002")
 					(unit 1)
 				)
 			)
@@ -39630,6 +40003,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 201.93 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3ee8b8c-f808-4109-9efb-f8dd780d1a67")
+		(property "Reference" "#PWR05011"
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eef847fb-51ac-4867-9671-698390569e07")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:AT25SF081-SSHD-X")
 		(at 317.5 229.87 0)
 		(mirror y)
@@ -39864,77 +40303,6 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5b10988-308f-4ee7-bd19-89b76a4d5547")
-		(property "Reference" "#PWR093"
-			(at 184.15 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 184.15 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "607a77dd-4b0b-429d-bd64-2a733f3927b6")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0288")
 					(unit 1)
 				)
 			)
@@ -41006,9 +41374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 90.17 67.31 0)
-		(mirror y)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 90.805 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41016,7 +41383,7 @@
 		(dnp no)
 		(uuid "ae781b34-e10c-477c-aa0f-dfc24c5b9119")
 		(property "Reference" "SW416"
-			(at 90.17 63.5 0)
+			(at 90.678 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41024,15 +41391,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 90.17 71.12 0)
+			(at 90.805 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 90.17 67.31 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 90.805 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41040,8 +41407,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 67.31 0)
+		(property "Datasheet" ""
+			(at 90.805 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41050,7 +41417,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 67.31 0)
+			(at 90.805 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41063,6 +41430,18 @@
 		)
 		(pin "2"
 			(uuid "25d44494-76da-4a9e-acfb-6f321ff54835")
+		)
+		(pin "5"
+			(uuid "4af0500d-c687-46cb-b173-9b0970c6ff6a")
+		)
+		(pin "3"
+			(uuid "3dcea4fd-2282-402a-bb6d-3c054f8da8bd")
+		)
+		(pin "4"
+			(uuid "3d95e0fe-6fbc-4a2b-b83e-af4603d1fe60")
+		)
+		(pin "6"
+			(uuid "61f652eb-6e4a-4a11-a9ee-53b76524ad02")
 		)
 		(instances
 			(project "faders"
@@ -41656,8 +42035,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 90.17 248.92 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 89.535 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41665,7 +42044,7 @@
 		(dnp no)
 		(uuid "b485ce97-5069-4237-a6c5-666835479482")
 		(property "Reference" "SW301"
-			(at 90.17 245.11 0)
+			(at 89.535 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41673,15 +42052,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 90.17 252.73 0)
+			(at 89.535 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 90.17 248.92 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 89.535 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41689,8 +42068,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 248.92 0)
+		(property "Datasheet" ""
+			(at 89.535 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41699,7 +42078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 248.92 0)
+			(at 89.535 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41712,6 +42091,18 @@
 		)
 		(pin "2"
 			(uuid "73b10350-b8b0-4edf-8603-4495d09551a7")
+		)
+		(pin "3"
+			(uuid "8f131e41-6e06-4a8e-8e94-4f24f5d6b8dd")
+		)
+		(pin "5"
+			(uuid "8d4e5c01-e307-489c-aa10-02d18011f67b")
+		)
+		(pin "6"
+			(uuid "ac33e4a8-1422-4b7e-81d1-07eab1496e74")
+		)
+		(pin "4"
+			(uuid "4c98042b-7b28-4771-9d22-447319df9fa8")
 		)
 		(instances
 			(project "faders"
@@ -41800,9 +42191,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 90.17 48.26 0)
-		(mirror y)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 90.805 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41810,7 +42200,7 @@
 		(dnp no)
 		(uuid "b55b860c-bf6c-41ce-9508-51cb7a56238e")
 		(property "Reference" "SW411"
-			(at 90.17 44.45 0)
+			(at 90.678 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41818,15 +42208,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 90.17 52.07 0)
+			(at 90.805 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 90.17 48.26 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 90.805 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41834,8 +42224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
+		(property "Datasheet" ""
+			(at 90.805 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41844,7 +42234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 48.26 0)
+			(at 90.805 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41857,6 +42247,18 @@
 		)
 		(pin "2"
 			(uuid "36f6eb0d-8792-46fb-ad67-c7135050dbdf")
+		)
+		(pin "5"
+			(uuid "83098f00-9575-4cbe-b8dc-efcd983ad4a6")
+		)
+		(pin "3"
+			(uuid "1f47d10b-e894-4ce5-a7f2-f5a1f2ff1086")
+		)
+		(pin "4"
+			(uuid "c9c7f5e8-b970-4719-833c-40c53b4a941a")
+		)
+		(pin "6"
+			(uuid "b2782b9d-380e-4a56-b3fb-e1bdf4e9f8fb")
 		)
 		(instances
 			(project "faders"
@@ -42444,9 +42846,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 191.77 48.26 0)
-		(mirror y)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 192.405 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42454,7 +42855,7 @@
 		(dnp no)
 		(uuid "bdf46a98-a6b7-4385-a37b-63bcbb782552")
 		(property "Reference" "SW413"
-			(at 191.77 44.45 0)
+			(at 192.278 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42462,15 +42863,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 191.77 52.07 0)
+			(at 192.405 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 191.77 48.26 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 192.405 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42478,8 +42879,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 48.26 0)
+		(property "Datasheet" ""
+			(at 192.405 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42488,7 +42889,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 48.26 0)
+			(at 192.405 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42501,6 +42902,18 @@
 		)
 		(pin "2"
 			(uuid "22c871e3-4f17-48ce-8766-af82f34d7e52")
+		)
+		(pin "4"
+			(uuid "8a532095-e347-4909-b00c-6d2c0282fc42")
+		)
+		(pin "5"
+			(uuid "de5c0e1c-5274-4cc9-b3a2-c26aefa96a21")
+		)
+		(pin "6"
+			(uuid "9e848b7a-bded-4247-adcd-49be6c56668c")
+		)
+		(pin "3"
+			(uuid "24e43030-1c6a-4a75-9ae7-e0918c8c5f8e")
 		)
 		(instances
 			(project "faders"
@@ -43104,6 +43517,72 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "SW406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c69a7de2-9278-495c-83e3-ae3361bd96bf")
+		(property "Reference" "#PWR05014"
+			(at 252.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "EGND"
+			(at 252.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "517aa7a0-19d6-4eaf-82ad-5daaff7ca2dd")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
+					(reference "#PWR05014")
 					(unit 1)
 				)
 			)
@@ -43945,33 +44424,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 184.15 49.53 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 141.605 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d65f86b0-9c3e-4e66-82c1-3e184c75a4b8")
-		(property "Reference" "#PWR092"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 184.15 53.34 0)
+		(uuid "d691ddf0-3c1b-4b7c-aef7-c31c042b6673")
+		(property "Reference" "SW417"
+			(at 141.478 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 184.15 49.53 0)
+		(property "Value" "SW_SPST"
+			(at 141.605 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 141.605 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43980,7 +44458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 49.53 0)
+			(at 141.605 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43989,77 +44467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e14161d-c8c8-41af-95d6-ba96a6417592")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0289")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 140.97 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d691ddf0-3c1b-4b7c-aef7-c31c042b6673")
-		(property "Reference" "SW417"
-			(at 140.97 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 140.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 140.97 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 67.31 0)
+			(at 141.605 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44073,6 +44481,18 @@
 		(pin "2"
 			(uuid "0ffff3a3-5f47-4b43-9e57-fa3b1f8375b9")
 		)
+		(pin "3"
+			(uuid "d48721a3-3777-4c01-814d-0a90277f50f4")
+		)
+		(pin "4"
+			(uuid "e96ff8ce-03d1-4c6d-88c9-2ac76f4f2973")
+		)
+		(pin "5"
+			(uuid "6dc21ae2-90f1-4df9-b7b7-7b5a40273b03")
+		)
+		(pin "6"
+			(uuid "9583c7fa-0205-4614-81d5-78a5687c022b")
+		)
 		(instances
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
@@ -44089,8 +44509,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 39.37 67.31 0)
+		(lib_id "Cherry_MX:Cherry_MX_RGB")
+		(at 40.005 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44098,7 +44518,7 @@
 		(dnp no)
 		(uuid "d6bc7594-0947-44ce-9077-0db88a48aa79")
 		(property "Reference" "SW415"
-			(at 39.37 63.5 0)
+			(at 40.513 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44106,15 +44526,15 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 39.37 71.12 0)
+			(at 40.005 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_Plate"
-			(at 39.37 67.31 0)
+		(property "Footprint" "Cherry MX:Cherry-MX_Plate-Mounted_LTST-A683CEGBW_Kailh_Socket"
+			(at 40.005 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44122,8 +44542,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 39.37 67.31 0)
+		(property "Datasheet" ""
+			(at 40.005 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44132,7 +44552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 67.31 0)
+			(at 40.005 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44145,6 +44565,18 @@
 		)
 		(pin "2"
 			(uuid "0c7eab67-09b5-4672-9de5-526a39b8bbcf")
+		)
+		(pin "3"
+			(uuid "fb01ebf1-d4cf-4d6b-bc0f-0ff36e5e1bd0")
+		)
+		(pin "6"
+			(uuid "2523228d-6273-4bd8-96dd-ac588c1b4864")
+		)
+		(pin "4"
+			(uuid "3916397d-a29f-45da-8e60-a1c44a847e8c")
+		)
+		(pin "5"
+			(uuid "364e222a-dd00-457e-860a-81ce4d063496")
 		)
 		(instances
 			(project "faders"
@@ -44395,77 +44827,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db48ab54-c1e4-4a1b-92a2-1a2102c42d67")
-		(property "Reference" "#PWR018"
-			(at 184.15 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BGND"
-			(at 184.15 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87a60ae8-9496-4d4a-90f5-6aa3ed3e4974")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0262")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 224.79 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -44530,77 +44891,6 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "#PWR0290")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd38fee0-508c-4bef-8602-f31a83194388")
-		(property "Reference" "#PWR090"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 133.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e24338db-1697-4f97-b233-d5830a6c8ef2")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -45685,77 +45975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eba63ff8-f9d5-452e-bb6e-6f8029f4e25a")
-		(property "Reference" "#PWR019"
-			(at 133.35 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "BGND"
-			(at 133.35 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af16c3a6-c412-4469-be8e-b8de4cf2e4ef")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0263")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 353.06 173.99 0)
 		(unit 1)
@@ -46236,77 +46455,6 @@
 			(project "midi-controller"
 				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
 					(reference "C335")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0dbb01d-82d6-41fa-800a-b56303cd8037")
-		(property "Reference" "#PWR091"
-			(at 133.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EGND"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "022206c1-a830-4039-a397-a6a52df12854")
-		)
-		(instances
-			(project "faders"
-				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-			(project "midi-controller"
-				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
-					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
