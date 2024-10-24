@@ -2,6 +2,7 @@
 
 set -e    # Exit on error
 
+touch ../Code/src/firmware/main.cpp
 git submodule update --init
 cd ../Code/lib/pico-sdk/
 git submodule update 
