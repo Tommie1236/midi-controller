@@ -18,4 +18,5 @@ jobs:
         sudo apt-get install -y cmake make gcc g++ gcc-arm-none-eabi
 
     - name: build firmware
-      run: sh ./tools/build-firmware.sh
+      working-directory: ./tools
+      run: sh ./build-firmware.sh
