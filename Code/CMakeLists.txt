@@ -1,3 +1,5 @@
+option(BUILD_FIRMWARE "Build Firmware" 0)
+option(BUILD_FADER_WING "Build Fader Wing" 0) 
 # Code/CMakeLists.txt
 
 cmake_minimum_required(VERSION 3.13)
@@ -9,6 +11,9 @@ project(led C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
     
+# Enable C++ exceptions
+set(PICO_CXX_ENABLE_EXCEPTIONS 1)
+
 # Initialize the SDK
 pico_sdk_init()
 

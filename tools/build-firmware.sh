@@ -10,7 +10,7 @@ cd ../..
 mkdir -p build
 cp ./lib/pico-sdk/external/pico_sdk_import.cmake .
 cd build
-cmake ..
+cmake .. -DBUILD_FIRMWARE=1
 make -j $(($(nproc) * 2))
 
 while getopts 'l' flag; do
