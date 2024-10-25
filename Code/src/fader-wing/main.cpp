@@ -1,10 +1,9 @@
-// tlc59282 test
-
 #include <stdio.h>
 #include "hardware/gpio.h"
 #include "hardware/spi.h"
 #include "pico/time.h"
 #include "pico/stdlib.h"
+#include <encoder.h>
 
 
 #define spi_port spi0
@@ -88,18 +87,6 @@ int main() {
     //gpio_set_dir(CLK_PIN, GPIO_OUT);
 
 
-
-    // bool tx = 0;
-
-    // while (true) {
-    //     tx = ! tx;
-    //     gpio_put(TX_PIN, tx);
-    //     pulse(CLK_PIN);
-    //     pulse(LATCH_PIN);
-    //     sleep_ms(300);
-    // }
-
-    
     gpio_set_function(CLK_PIN, GPIO_FUNC_SPI);
     spi_init(spi_port, 1000000);
     gpio_set_function(TX_PIN, GPIO_FUNC_SPI);

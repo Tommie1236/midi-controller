@@ -9,7 +9,7 @@
 class mcp3008 {
     private:
         spi_inst_t *spi_port;
-        Pin cs_pin;
+        Pin& cs_pin;
     
     public:
         mcp3008(spi_inst_t *spi_port ,Pin& cs_pin);

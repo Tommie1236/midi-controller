@@ -19,6 +19,7 @@ target_link_libraries(fader-wing PRIVATE
     fader
     mcp23s17
     mcp3008
+    encoder
 )
 
 # enable usb/uart stdout
