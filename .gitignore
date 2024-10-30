@@ -41,3 +41,5 @@ kicad/fp-info-cache
 
 Code/build/*
 Code/pico_sdk_import.cmake
+
+**.vscode
