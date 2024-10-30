@@ -31957,6 +31957,12 @@
 					(unit 1)
 				)
 			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -33687,6 +33693,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7/a5bf4b9c-f855-46ea-be41-ff526471d004"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -38771,6 +38783,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7/a5bf4b9c-f855-46ea-be41-ff526471d004"
 					(reference "#PWR04000")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

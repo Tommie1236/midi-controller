@@ -8967,16 +8967,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 83.82) (xy 327.66 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "005bc13f-8bb8-4a2b-be03-bba520b49688")
-	)
-	(wire
-		(pts
 			(xy 80.01 24.13) (xy 82.55 24.13)
 		)
 		(stroke
@@ -9154,16 +9144,6 @@
 			(type default)
 		)
 		(uuid "05cfcc39-8fca-4d3a-a113-31807f1abd33")
-	)
-	(wire
-		(pts
-			(xy 427.99 85.09) (xy 435.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05d68abd-992f-4e00-b686-d4c2f086e809")
 	)
 	(wire
 		(pts
@@ -10477,6 +10457,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 86.36) (xy 330.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b83fa6f-461d-49fc-9873-3ae67ce14325")
+	)
+	(wire
+		(pts
 			(xy 353.06 177.8) (xy 353.06 179.07)
 		)
 		(stroke
@@ -10604,6 +10594,16 @@
 			(type default)
 		)
 		(uuid "2e680ef7-cfd1-4d08-a97c-729b30e4a15e")
+	)
+	(wire
+		(pts
+			(xy 433.07 82.55) (xy 427.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6befdf-ba03-42b2-a6be-c2480b718b6f")
 	)
 	(wire
 		(pts
@@ -11447,16 +11447,6 @@
 	)
 	(wire
 		(pts
-			(xy 438.15 82.55) (xy 438.15 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a19f486-6fc7-405e-bfa8-db936608c25f")
-	)
-	(wire
-		(pts
 			(xy 27.94 149.86) (xy 26.67 149.86)
 		)
 		(stroke
@@ -11504,16 +11494,6 @@
 			(type default)
 		)
 		(uuid "4b550c52-cfad-4e66-adb7-07ae8686a36b")
-	)
-	(wire
-		(pts
-			(xy 427.99 82.55) (xy 438.15 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bcc26f3-20bc-4a46-a7aa-720c105da0b1")
 	)
 	(wire
 		(pts
@@ -12787,6 +12767,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 87.63) (xy 438.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e12c041-e0ce-415e-aa4e-503a2a7f9edb")
+	)
+	(wire
+		(pts
 			(xy 335.28 60.96) (xy 335.28 53.34)
 		)
 		(stroke
@@ -13217,6 +13207,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 86.36) (xy 320.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797b1852-fab9-461b-b693-f36917617582")
+	)
+	(wire
+		(pts
 			(xy 180.34 152.4) (xy 179.07 152.4)
 		)
 		(stroke
@@ -13614,16 +13614,6 @@
 			(type default)
 		)
 		(uuid "84a6ba0b-c3dd-4894-aa4e-15ba624ced8a")
-	)
-	(wire
-		(pts
-			(xy 320.04 81.28) (xy 330.2 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84edcadd-0aea-4ace-9e44-76fc4f68b0b1")
 	)
 	(wire
 		(pts
@@ -14617,6 +14607,16 @@
 	)
 	(wire
 		(pts
+			(xy 438.15 87.63) (xy 438.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21a514c-3d7c-4b81-a32a-292792f5e6f2")
+	)
+	(wire
+		(pts
 			(xy 407.67 240.03) (xy 410.21 240.03)
 		)
 		(stroke
@@ -14957,7 +14957,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 106.68) (xy 325.12 86.36)
+			(xy 325.12 81.28) (xy 325.12 106.68)
 		)
 		(stroke
 			(width 0)
@@ -15174,6 +15174,16 @@
 			(type default)
 		)
 		(uuid "b36e8a11-6f62-44d5-8e2a-87c440f86276")
+	)
+	(wire
+		(pts
+			(xy 427.99 85.09) (xy 435.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b437f213-dcc7-43d1-bff9-530c4225e311")
 	)
 	(wire
 		(pts
@@ -15517,6 +15527,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 81.28) (xy 320.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0047c8-b7a0-4fdf-83f9-8e4b343cf65f")
+	)
+	(wire
+		(pts
 			(xy 148.59 241.3) (xy 151.13 241.3)
 		)
 		(stroke
@@ -15584,16 +15604,6 @@
 			(type default)
 		)
 		(uuid "c118a07a-b8f4-4402-92fc-103f787e5af5")
-	)
-	(wire
-		(pts
-			(xy 320.04 86.36) (xy 325.12 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c11c2053-0c88-41fc-9b95-4ca1a009aaa6")
 	)
 	(wire
 		(pts
@@ -16955,6 +16965,16 @@
 		)
 		(uuid "e2c974da-c47e-44b0-bb87-2834846d259a")
 	)
+	(wire
+		(pts
+			(xy 320.04 83.82) (xy 327.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e5c6c3-93cd-401d-9b44-06db5942e7a2")
+	)
 	(polyline
 		(pts
 			(xy 243.84 369.57) (xy 248.92 369.57)
@@ -17004,16 +17024,6 @@
 			(type default)
 		)
 		(uuid "e4caee31-94e7-445f-b129-ed36f7efe9b8")
-	)
-	(wire
-		(pts
-			(xy 330.2 81.28) (xy 330.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4db2b12-7749-40fc-a61c-d9a093337e65")
 	)
 	(wire
 		(pts
@@ -17587,7 +17597,7 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 107.95) (xy 433.07 87.63)
+			(xy 433.07 82.55) (xy 433.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -17964,16 +17974,6 @@
 			(type default)
 		)
 		(uuid "fcc73e3f-eb99-48c6-bd66-04732d720283")
-	)
-	(wire
-		(pts
-			(xy 427.99 87.63) (xy 433.07 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd7a4e4c-be77-426b-9f68-e72ce6449c3f")
 	)
 	(wire
 		(pts
@@ -26453,6 +26453,12 @@
 					(unit 1)
 				)
 			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -27624,6 +27630,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05004")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -29204,6 +29216,12 @@
 					(unit 1)
 				)
 			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -29267,6 +29285,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05006")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -32807,6 +32831,12 @@
 					(unit 1)
 				)
 			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -34831,6 +34861,12 @@
 					(unit 1)
 				)
 			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -35038,6 +35074,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05008")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -35651,6 +35693,12 @@
 					(unit 1)
 				)
 			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -35799,6 +35847,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05007")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -37280,6 +37334,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05003")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -39337,6 +39397,12 @@
 					(unit 1)
 				)
 			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -39614,6 +39680,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05002")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -40063,6 +40135,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05011")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -43583,6 +43661,12 @@
 			(project "faders"
 				(path "/077511d1-9e66-4142-bbad-77a69cc748a7"
 					(reference "#PWR05014")
+					(unit 1)
+				)
+			)
+			(project "midi-controller"
+				(path "/2cba2024-755f-4534-8b6f-a95a551957b1/f0e0d697-e432-4b50-8287-c9353a450074"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
