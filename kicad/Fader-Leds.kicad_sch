@@ -28632,6 +28632,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 303.53 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "603f64db-9421-402b-ab9e-4be7dbe1ef1a")
+		(property "Reference" "#PWR05015"
+			(at 303.53 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+E3V3"
+			(at 303.53 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e77813a4-4e3a-48b9-b626-6cb110f91156")
+		)
+		(instances
+			(project "faders"
+				(path "/077511d1-9e66-4142-bbad-77a69cc748a7/a5bf4b9c-f855-46ea-be41-ff526471d004"
+					(reference "#PWR05015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 165.1 287.02 0)
 		(unit 1)
