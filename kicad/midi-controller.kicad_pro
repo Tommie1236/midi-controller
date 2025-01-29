@@ -659,5 +659,7 @@
       "keypad"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "MIDI-CONTROLLER-NAME": "temp controller name"
+  }
 }
