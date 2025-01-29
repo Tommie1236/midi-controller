@@ -3,9 +3,8 @@
 set -e    # Exit on error
 
 touch ../Code/src/fader-wing/main.cpp
-git submodule update --init
 cd ../Code/lib/pico-sdk/
-git submodule update 
+git submodule update --init 
 export PICO_SDK_PATH=$PWD
 cd ../..
 mkdir -p build
