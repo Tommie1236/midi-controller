@@ -36,10 +36,9 @@ class Pin {
         Interrupt_mode interrupt_mode = Interrupt_mode::DISABLED;
 
     public:
-        Pin(int index = 0, Parent_type parent_type = Parent_type::MCP23S17);
+        Pin(int index = 0, Parent_type parent_type = Parent_type::MCP23S17, Mcp23s17 *parent = nullptr);
         bool set(bool value);
         bool get();
-        void set_parent(Mcp23s17& parent);
         
         bool set_default_value(bool value);
 

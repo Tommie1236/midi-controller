@@ -11,7 +11,8 @@
 // for rp2040 index is gpio number
 // for mcp23s17 index is pin number
 Pin::Pin(int index,
-         Parent_type parent_type)
+         Parent_type parent_type,
+         Mcp23s17 *parent)
          : index(index),
            parent_type(parent_type) {
       
@@ -73,11 +74,6 @@ bool Pin::get() {
             break;
     };
     return this->value;
-};
-
-void Pin::set_parent(Mcp23s17& parent) {
-    
-    this->parent = &parent;
 };
 
 bool Pin::set_default_value(bool value) {
