@@ -1,4 +1,4 @@
-
+// Deprecated
 #ifndef Pin_H
 #define Pin_H
 

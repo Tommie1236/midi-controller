@@ -1,3 +1,4 @@
+// Deprecated
 #include "pin.h"
 
 #include <mcp23s17.h>
