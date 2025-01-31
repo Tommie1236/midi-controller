@@ -5,14 +5,14 @@
 
 
 
-GpioPin::GpioPin(Mcp23s17* parent, uint8_t pinNumber)
+GpioPin::GpioPin(Mcp23s17* parent, uint8_t pinNumber, PinMode direction = PinMode::INPUT)
     : parent(parent), parentType(ParentType::Mcp23s17), pinNumber(pinNumber) {
-
+        this->set_direction(direction);
 };
 
-GpioPin::GpioPin(Rp2040* parent, uint8_t pinNumber)
-    : parent(parent), parentType(ParentType::Rp2040), pinNumber(pinNumber) {
-
+GpioPin::GpioPin(uint8_t pinNumber, PinMode direction = PinMode::INPUT)
+    : parentType(ParentType::Rp2040), pinNumber(pinNumber) {
+        this->set_direction(direction);
 };
 
 
@@ -21,20 +21,45 @@ bool GpioPin::read() {
         case ParentType::Mcp23s17:
             // TODO: implement when mcp23s17's "api" is known
             // return this->parent->get_pin(this->pinNumber)->get();
-            return false;
+            break;
         case ParentType::Rp2040:
-            return gpio_get(this->pinNumber);
+            this->value = gpio_get(this->pinNumber);
+            break;
     }
+    return this->value;
 }
 
 bool GpioPin::write(bool value) {
+    this->value = value;
+
     switch (this->parentType) {
         case ParentType::Mcp23s17:
             // TODO: implement when mcp23s17's "api" is known
             // return this->parent->get_pin(this->pinNumber)->set(value);
-            return 0;
+            break;
         case ParentType::Rp2040:
-            gpio_put(this->pinNumber, value);
-            return value;
+            gpio_put(this->pinNumber, this->value);
+            break;
     }
+    return this->value;
 }
+
+bool GpioPin::set_default_value(bool value) {
+    this->defaultValue = value;
+
+    if (this->parentType == ParentType::Mcp23s17) {
+        // TODO: implement when mcp23s17's "api" is known
+    } // rp2040 doesn't need/have a default gpio value like the mcp23s17
+};
+
+PinMode GpioPin::set_direction(PinMode direction) {
+    this->direction = direction;
+    switch (this->parentType) {
+        case ParentType::Mcp23s17:
+            break;
+        case ParentType::Rp2040:
+            gpio_set_dir(this->pinNumber, static_cast<bool>(this->direction));
+            break;
+    }
+    return this->direction;
+};

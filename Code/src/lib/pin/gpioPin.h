@@ -1,4 +1,5 @@
 
+// TODO: interrupts
 #ifndef GpioPin_H
 #define GpioPin_H
 
@@ -6,31 +7,38 @@
 #include <pico/stdlib.h>
 
 class Mcp23s17;
-class Rp2040;
 
 enum class ParentType {
     Mcp23s17,
     Rp2040
 };
 
-using ParentVariant = std::variant<
-    Mcp23s17*,
-    Rp2040*
->;
+enum class PinMode {
+    INPUT   = 0,
+    OUTPUT  = 1
+};
 
 
 class GpioPin {
     private:
         const ParentType parentType;
-        const ParentVariant parent;
+        const Mcp23s17* parent = nullptr;
         const uint8_t pinNumber;
+
+        bool value = 0;
+        bool defaultValue = 0; // mcp23s17 only
+        PinMode direction = PinMode::INPUT;
     
     public:
-        GpioPin(Mcp23s17 *parent, uint8_t pinNumber);
-        GpioPin(Rp2040 *parent, uint8_t pinNumber);
+        GpioPin(Mcp23s17 *parent, uint8_t pinNumber, PinMode direction);
+        GpioPin(uint8_t pinNumber, PinMode direction);  // assumes parent is rp2040
 
         bool write(bool value);
         bool read();
+
+        PinMode set_direction(PinMode direction);
+        bool set_default_value(bool value);
+
 };
 
 #endif // GpioPin_H

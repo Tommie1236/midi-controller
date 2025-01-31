@@ -8,12 +8,12 @@
 AdcPin::AdcPin(Mcp3008* parent, uint8_t channel)
     : parent(parent), parentType(ParentType::Mcp3008), channel(channel) {
 
-};
+};  
 
-AdcPin::AdcPin(Rp2040* parent, uint8_t channel)
-    : parent(parent), parentType(ParentType::Rp2040), channel(channel) {
+AdcPin::AdcPin(uint8_t channel)
+    : parentType(ParentType::Rp2040), channel(channel) {
         adc_init();
-        adc_gpio_init(26 + this->channel);
+        adc_gpio_init(26 + this->channel); 
 };
 
 uint8_t AdcPin::read() {

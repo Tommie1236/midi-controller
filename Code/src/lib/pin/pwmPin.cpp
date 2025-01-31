@@ -12,8 +12,8 @@ PwmPin::PwmPin(Pca9635* parent, uint8_t pinNumber)
 
 };
 
-PwmPin::PwmPin(Rp2040* parent, uint8_t pinNumber)
-    : parent(parent), ParentType(ParentType::Rp2040), 
+PwmPin::PwmPin(uint8_t pinNumber)
+    : ParentType(ParentType::Rp2040), 
     pinNumber(pinNumber) {
 
         gpio_set_function(this->pinNumber, GPIO_FUNC_PWM);

@@ -6,27 +6,21 @@
 #include <pico/stdlib.h>
 
 class Mcp3008;
-class Rp2040;
 
 enum class ParentType {
     Mcp3008,
     Rp2040
 };
 
-using ParentVariant = std::variant<
-    Mcp3008*,
-    Rp2040*
->;
-
 class AdcPin {
     private:
         const ParentType parentType;
-        const ParentVariant parent;
+        const Mcp3008* parent = nullptr;
         const uint8_t channel;
     
     public:
         AdcPin(Mcp3008 *parent, uint8_t channel);
-        AdcPin(Rp2040 *parent, uint8_t channel);
+        AdcPin(uint8_t channel); // assumes parent is rp2040
 
         uint8_t read();
 };
