@@ -22,7 +22,7 @@ enum class PinMode {
 class GpioPin {
     private:
         const ParentType parentType;
-        const Mcp23s17* parent = nullptr;
+        Mcp23s17* const parent = nullptr;
         const uint8_t pinNumber;
 
         bool value = 0;

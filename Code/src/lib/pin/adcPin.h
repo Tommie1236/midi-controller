@@ -15,7 +15,7 @@ enum class ParentType {
 class AdcPin {
     private:
         const ParentType parentType;
-        const Mcp3008* parent = nullptr;
+        Mcp3008* const parent = nullptr;
         const uint8_t channel;
     
     public:

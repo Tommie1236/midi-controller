@@ -15,7 +15,7 @@ enum class ParentType {
 class PwmPin {
     private:
         const ParentType ParentType;
-        const Pca9635* parent = nullptr;
+        Pca9635* const parent = nullptr;
         const uint8_t pinNumber;
         uint8_t rp2040PwmSlice;
         bool rp2040PwmChannel;
